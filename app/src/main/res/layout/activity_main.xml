@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnGenerate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Згенерувати"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Додаток для генерування PDF файлу з математичними виразами "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearForRadioGroup1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textToChooseAct">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/dodavannya"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Додавання" />
+
+            <RadioButton
+                android:id="@+id/vidnimannya"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Віднімання" />
+
+            <RadioButton
+                android:id="@+id/mnojennya"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Множення" />
+
+            <RadioButton
+                android:id="@+id/dilennya"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Ділення" />
+
+            <RadioButton
+                android:id="@+id/koreni"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Корень числа" />
+
+            <RadioButton
+                android:id="@+id/simpleLog"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Прості логарифми" />
+
+            <RadioButton
+                android:id="@+id/stepinChisla"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Степінь числа" />
+
+            <RadioButton
+                android:id="@+id/factorialChisla"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Факторіал числа" />
+
+            <RadioButton
+                android:id="@+id/xSimple"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Знайти X" />
+
+            <RadioButton
+                android:id="@+id/ySimple"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Знайти X" />
+
+            <RadioButton
+                android:id="@+id/zSimple"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Знайти X" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearForRadioGroup2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@+id/linearForRadioGroup1"
+        app:layout_constraintTop_toBottomOf="@+id/textToChooseAct">
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/dodavannya1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Додавання" />
+
+            <RadioButton
+                android:id="@+id/vidnimannya1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Віднімання" />
+
+            <RadioButton
+                android:id="@+id/mnojennya1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Множення" />
+
+            <RadioButton
+                android:id="@+id/dilennya1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Ділення" />
+
+            <RadioButton
+                android:id="@+id/koreni1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Корень числа" />
+
+            <RadioButton
+                android:id="@+id/simpleLog1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Прості логарифми" />
+
+            <RadioButton
+                android:id="@+id/stepinChisla1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Степінь числа" />
+
+            <RadioButton
+                android:id="@+id/factorialChisla1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Факторіал числа1" />
+
+            <RadioButton
+                android:id="@+id/xSimple1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Знайти X" />
+
+            <RadioButton
+                android:id="@+id/ySimple1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Знайти X" />
+
+            <RadioButton
+                android:id="@+id/zSimple1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Знайти X" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearForQuantity"
+        android:layout_width="130dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="80dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/title"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textVariants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="Введіть кількість варіантів робіт:"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/numberOfVariants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="1-100"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textToChooseQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="Введіть кількість прикладів:"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/numberOfProblems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="1-100"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textToChooseAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="140dp"
+        android:paddingStart="8dp"
+        android:text="Виберіть дію:"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/linearForQuantity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/title" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

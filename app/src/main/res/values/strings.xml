@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Test</string>
+    //karina
+    <string name="generate_button_text">Згенерувати</string>
 </resources>

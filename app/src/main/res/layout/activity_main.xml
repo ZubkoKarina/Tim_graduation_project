@@ -28,15 +28,16 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnGenerate"
         android:layout_width="329dp"
-        android:layout_height="50dp"
+        android:layout_height="100dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="28dp"
         android:background="@drawable/round_button"
         android:isScrollContainer="false"
         android:text="@string/generate_button_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout

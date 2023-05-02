@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
     <shape xmlns:android="http://schemas.android.com/apk/res/android">
         <solid android:color="#d4a373"/> <!-- цвет кнопки -->
         <corners android:radius="50dp"/> <!-- скругление углов -->
         <!-- если хотите добавить обводку -->
-        <stroke android:color="@color/purple_500" android:width="2dp"/> <!-- цвет и толщина обводки -->
+        <stroke android:color="#ffffff" android:width="2dp"/> <!-- цвет и толщина обводки -->
     </shape>
-</selector>

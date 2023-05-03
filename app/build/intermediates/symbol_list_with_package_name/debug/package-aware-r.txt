@@ -41,6 +41,7 @@ anim m3_side_sheet_slide_out
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
+anim shine_animation
 anim textview_animation
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
@@ -1831,6 +1832,9 @@ color material_timepicker_button_stroke
 color material_timepicker_clock_text_color
 color material_timepicker_clockface
 color material_timepicker_modebutton_tint
+color metal_base
+color metal_highlight_end
+color metal_highlight_start
 color mtrl_btn_bg_color_selector
 color mtrl_btn_ripple_color
 color mtrl_btn_stroke_color_selector
@@ -2751,6 +2755,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable metal_card
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -2806,6 +2811,7 @@ drawable round_textview
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font rubikmono
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3082,6 +3088,7 @@ id material_timepicker_view
 id material_value_index
 id matrix
 id message
+id metal_card
 id middle
 id mini
 id mnojennya

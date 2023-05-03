@@ -1,4 +1,4 @@
-#Tue May 02 15:26:04 CEST 2023
+#Wed May 03 17:52:51 CEST 2023
 base.0=/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex

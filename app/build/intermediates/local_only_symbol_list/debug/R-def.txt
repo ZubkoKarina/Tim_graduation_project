@@ -1,7 +1,11 @@
 R_DEF: Internal format may change without notice
 local
+anim shine_animation
 anim textview_animation
 color black
+color metal_base
+color metal_highlight_end
+color metal_highlight_start
 color purple_200
 color purple_500
 color purple_700
@@ -10,8 +14,10 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable metal_card
 drawable round_button
 drawable round_textview
+font rubikmono
 id btnGenerate
 id dilennya
 id dilennya1
@@ -24,6 +30,7 @@ id koreni1
 id linearForQuantity
 id linearForRadioGroup1
 id linearForRadioGroup2
+id metal_card
 id mnojennya
 id mnojennya1
 id numberOfProblems

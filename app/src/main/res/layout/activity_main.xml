@@ -8,19 +8,27 @@
     tools:context=".MainActivity">
 
     <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <TextView
             android:id="@+id/metal_card"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
+            android:layout_width="329dp"
+            android:layout_height="60dp"
+            android:background="@drawable/metal_card"
             android:padding="16dp"
-            android:textSize="18sp"
-            android:background="@drawable/metal_card"/>
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnGenerate"
+            android:layout_width="329dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="23dp"
+            android:layout_marginBottom="17dp"
+            android:background="@drawable/round_button"
+            android:isScrollContainer="false"
+            android:text="@string/generate_button_text" />
 
     </RelativeLayout>
 
@@ -35,9 +43,9 @@
         android:text="Додаток для генерування PDF файлу з математичними виразами "
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="10sp"
         android:textStyle="bold"
-        android:fontFamily="@font/RubikMono"
+        android:fontFamily="@font/rubikmono"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -239,8 +247,8 @@
 
         <EditText
             android:id="@+id/numberOfVariants"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:hint="1-100"
             android:inputType="number" />
 
@@ -255,11 +263,10 @@
 
         <EditText
             android:id="@+id/numberOfProblems"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:hint="1-100"
             android:inputType="number" />
-
     </LinearLayout>
 
     <TextView
@@ -277,18 +284,5 @@
         app:layout_constraintEnd_toStartOf="@+id/linearForQuantity"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/title" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnGenerate"
-        android:layout_width="329dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="23dp"
-        android:background="@drawable/round_button"
-        android:isScrollContainer="false"
-        android:text="@string/generate_button_text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearForRadioGroup2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

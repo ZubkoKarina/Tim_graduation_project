@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
     private var numberOfProblems: Int? = null
     private var numberOfVariants: Int? = null
     private lateinit var metalCard: TextView
-    private val textToDisplay = "Привет, я металлическая карточка с эффектом печатания текста!"
+    private val textToDisplay = "Додаток для генерування PDF файлу з математичними виразами"
     private var textIndex = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

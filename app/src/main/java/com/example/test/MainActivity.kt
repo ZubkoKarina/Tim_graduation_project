@@ -4,6 +4,8 @@ import android.Manifest
 import android.content.pm.PackageManager
 import android.graphics.pdf.PdfDocument
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.os.Environment
 import android.text.Editable
 import android.text.TextWatcher
@@ -23,11 +25,23 @@ class MainActivity : AppCompatActivity() {
     private var selectedOperation: String? = null
     private var numberOfProblems: Int? = null
     private var numberOfVariants: Int? = null
-
+    private lateinit var metalCard: TextView
+    private val textToDisplay = "Привет, я металлическая карточка с эффектом печатания текста!"
+    private var textIndex = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        metalCard = findViewById(R.id.metal_card)
 
+        // Загрузите и запустите анимацию
+        val shineAnimation = AnimationUtils.loadAnimation(this, R.anim.shine_animation)
+        metalCard.startAnimation(shineAnimation)
+
+        // Начните эффект печатания текста
+        startTextTypingEffect()
+
+        // Удалите второй блок onCreate и вставьте содержимое сюда
+        // (код ниже уже вставлен из второго блока onCreate)
         //karina
         val myTextView: TextView = findViewById(R.id.title)
         myTextView.setOnClickListener {
@@ -99,6 +113,20 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+    private fun startTextTypingEffect() {
+        val handler = Handler(Looper.getMainLooper())
+        val delay: Long = 100 // Задержка в миллисекундах между выводом каждого символа
+        handler.postDelayed(object : Runnable {
+            override fun run() {
+                if (textIndex <= textToDisplay.length) {
+                    metalCard.text = textToDisplay.subSequence(0, textIndex)
+                    textIndex++
+                    handler.postDelayed(this, delay)
+                }
+            }
+        }, delay)
+    }
+
 
     private fun generatePdf() {
         try {

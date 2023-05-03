@@ -12,6 +12,7 @@ import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import android.view.animation.AnimationUtils
 import com.example.test.math_actions.*
 import com.itextpdf.text.*
 import com.itextpdf.text.pdf.PdfPTable
@@ -27,6 +28,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //karina
+        val myTextView: TextView = findViewById(R.id.title)
+        myTextView.setOnClickListener {
+            val animation = AnimationUtils.loadAnimation(this, R.anim.textview_animation)
+            myTextView.startAnimation(animation)
+        }
+        //karina end
         val btnGenerate = findViewById<Button>(R.id.btnGenerate)
         val radioGroup = findViewById<RadioGroup>(R.id.radioGroup)
         val numberOfProblemsEditText = findViewById<EditText>(R.id.numberOfProblems)

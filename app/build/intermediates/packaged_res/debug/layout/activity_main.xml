@@ -4,33 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EDFF7A"
+    android:background="#fefae0"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btnGenerate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:background="#D17B0F"
-        android:text="Згенерувати"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/title"
-        android:layout_width="410dp"
-        android:layout_height="58dp"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="5dp"
-        android:background="#B7F0AD"
+        android:background="@drawable/round_textview"
         android:text="Додаток для генерування PDF файлу з математичними виразами "
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -210,17 +198,18 @@
     <LinearLayout
         android:id="@+id/linearForQuantity"
         android:layout_width="130dp"
-        android:layout_height="match_parent"
+        android:layout_height="200dp"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="80dp"
+        android:background="#fefae0"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/title"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.918">
 
         <TextView
             android:id="@+id/textVariants"
@@ -262,6 +251,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="140dp"
+        android:background="#faedcd"
         android:paddingStart="8dp"
         android:text="Виберіть дію:"
         android:textAlignment="center"
@@ -270,5 +260,15 @@
         app:layout_constraintEnd_toStartOf="@+id/linearForQuantity"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/title" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnGenerate"
+        android:layout_width="329dp"
+        android:layout_height="60dp"
+        android:background="@drawable/round_button"
+        android:isScrollContainer="false"
+        android:text="@string/generate_button_text"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="655dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

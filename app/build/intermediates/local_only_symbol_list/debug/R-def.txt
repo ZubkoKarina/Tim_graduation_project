@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+anim textview_animation
 color black
 color purple_200
 color purple_500
@@ -9,6 +10,8 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable round_button
+drawable round_textview
 id btnGenerate
 id dilennya
 id dilennya1
@@ -47,6 +50,7 @@ layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string generate_button_text
 style Theme.Test
 xml backup_rules
 xml data_extraction_rules

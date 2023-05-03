@@ -10,35 +10,20 @@
 
     <TextView
         android:id="@+id/title"
-        android:layout_width="410dp"
-        android:layout_height="58dp"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="5dp"
-        android:background="#ccd5ae"
+        android:background="@drawable/round_textview"
         android:text="Додаток для генерування PDF файлу з математичними виразами "
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnGenerate"
-        android:layout_width="329dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="28dp"
-        android:background="@drawable/round_button"
-        android:isScrollContainer="false"
-        android:text="@string/generate_button_text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearForRadioGroup1"
@@ -213,7 +198,7 @@
     <LinearLayout
         android:id="@+id/linearForQuantity"
         android:layout_width="130dp"
-        android:layout_height="match_parent"
+        android:layout_height="200dp"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="80dp"
@@ -224,7 +209,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/title"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.918">
 
         <TextView
             android:id="@+id/textVariants"
@@ -275,5 +260,15 @@
         app:layout_constraintEnd_toStartOf="@+id/linearForQuantity"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/title" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnGenerate"
+        android:layout_width="329dp"
+        android:layout_height="60dp"
+        android:background="@drawable/round_button"
+        android:isScrollContainer="false"
+        android:text="@string/generate_button_text"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="655dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

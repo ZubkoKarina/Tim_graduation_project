@@ -40,6 +40,7 @@ int anim m3_side_sheet_slide_out 0x7f010026
 int anim mtrl_bottom_sheet_slide_in 0x7f010027
 int anim mtrl_bottom_sheet_slide_out 0x7f010028
 int anim mtrl_card_lowers_interpolator 0x7f010029
+int anim textview_animation 0x7f01002a
 int animator design_appbar_state_list_animator 0x7f020000
 int animator design_fab_hide_motion_spec 0x7f020001
 int animator design_fab_show_motion_spec 0x7f020002
@@ -2799,6 +2800,8 @@ int drawable notification_template_icon_bg 0x7f0700d8
 int drawable notification_template_icon_low_bg 0x7f0700d9
 int drawable notification_tile_bg 0x7f0700da
 int drawable notify_panel_notification_icon_bg 0x7f0700db
+int drawable round_button 0x7f0700df
+int drawable round_textview 0x7f0700e0
 int drawable test_level_drawable 0x7f0700dc
 int drawable tooltip_frame_dark 0x7f0700dd
 int drawable tooltip_frame_light 0x7f0700de
@@ -3559,6 +3562,7 @@ int string error_icon_content_description 0x7f0f0029
 int string exposed_dropdown_menu_content_description 0x7f0f002a
 int string fab_transformation_scrim_behavior 0x7f0f002b
 int string fab_transformation_sheet_behavior 0x7f0f002c
+int string generate_button_text 0x7f0f009b
 int string hide_bottom_view_on_scroll_behavior 0x7f0f002d
 int string icon_content_description 0x7f0f002e
 int string item_view_role_description 0x7f0f002f

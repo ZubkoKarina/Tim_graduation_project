@@ -21,6 +21,7 @@
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:fontFamily="@font/RubikMono"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -265,10 +266,13 @@
         android:id="@+id/btnGenerate"
         android:layout_width="329dp"
         android:layout_height="60dp"
+        android:layout_marginTop="23dp"
         android:background="@drawable/round_button"
         android:isScrollContainer="false"
         android:text="@string/generate_button_text"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="655dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearForRadioGroup2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

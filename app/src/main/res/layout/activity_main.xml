@@ -30,9 +30,51 @@
             android:isScrollContainer="false"
             android:text="@string/generate_button_text" />
 
-    </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/linearForQuantity"
+            android:layout_width="142dp"
+            android:layout_height="279dp"
+            android:layout_below="@+id/metal_card"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="87dp"
+            android:layout_marginEnd="7dp"
+            android:background="#fefae0"
+            android:orientation="vertical">
 
-    <TextView
+            <TextView
+                android:id="@+id/textVariants"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:text="Введіть кількість варіантів робіт:"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/numberOfVariants"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:hint="1-100"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textToChooseQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:text="Введіть кількість прикладів:"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/numberOfProblems"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:hint="1-100"
+                android:inputType="number" />
+        </LinearLayout>
+
+    <!--<TextView
         android:id="@+id/title"
         android:layout_width="400dp"
         android:layout_height="60dp"
@@ -48,7 +90,7 @@
         android:fontFamily="@font/rubikmono"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />-->
 
     <LinearLayout
         android:id="@+id/linearForRadioGroup1"
@@ -220,60 +262,10 @@
         </RadioGroup>
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/linearForQuantity"
-        android:layout_width="130dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="80dp"
-        android:background="#fefae0"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/title"
-        app:layout_constraintVertical_bias="0.918">
-
-        <TextView
-            android:id="@+id/textVariants"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingStart="8dp"
-            android:text="Введіть кількість варіантів робіт:"
-            android:textColor="@color/black"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/numberOfVariants"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:hint="1-100"
-            android:inputType="number" />
-
-        <TextView
-            android:id="@+id/textToChooseQuantity"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingStart="8dp"
-            android:text="Введіть кількість прикладів:"
-            android:textColor="@color/black"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/numberOfProblems"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:hint="1-100"
-            android:inputType="number" />
-    </LinearLayout>
-
     <TextView
         android:id="@+id/textToChooseAct"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
         android:layout_marginEnd="140dp"
         android:background="#faedcd"
         android:paddingStart="8dp"
@@ -281,8 +273,7 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/linearForQuantity"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/title" />
+        app:layout_constraintTop_toTopOf="@id/metal_card"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

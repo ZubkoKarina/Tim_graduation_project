@@ -44,10 +44,11 @@ class MainActivity : AppCompatActivity() {
         // (код ниже уже вставлен из второго блока onCreate)
         //karina
         val myTextView: TextView = findViewById(R.id.title)
-        myTextView.setOnClickListener {
+        myTextView.visibility = View.GONE
+        /*myTextView.setOnClickListener {
             val animation = AnimationUtils.loadAnimation(this, R.anim.textview_animation)
             myTextView.startAnimation(animation)
-        }
+        }*/
         //karina end
         val btnGenerate = findViewById<Button>(R.id.btnGenerate)
         val radioGroup = findViewById<RadioGroup>(R.id.radioGroup)

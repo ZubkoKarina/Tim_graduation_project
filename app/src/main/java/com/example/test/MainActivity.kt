@@ -23,6 +23,9 @@ import com.google.android.material.bottomsheet.BottomSheetDialog
 
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var numberOfProblemsEditText: EditText
+    private lateinit var numberOfVariantsEditText: EditText
+    val btnGenerate: Button = findViewById(R.id.btnGenerate)
     private var selectedOperation: String? = null
     private var numberOfProblems: Int? = null
     private var numberOfVariants: Int? = null
@@ -33,6 +36,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         metalCard = findViewById(R.id.metal_card)
+        numberOfProblemsEditText = findViewById(R.id.numberOfProblems)
+        numberOfVariantsEditText = findViewById(R.id.numberOfVariants)
 
         val showBottomSheetDialogButton: Button = findViewById(R.id.showBottomSheetDialogButton)
         showBottomSheetDialogButton.setOnClickListener {
@@ -62,10 +67,10 @@ class MainActivity : AppCompatActivity() {
             myTextView.startAnimation(animation)
         }*/
         //karina end
-        val btnGenerate = findViewById<Button>(R.id.btnGenerate)
+        //val btnGenerate = findViewById<Button>(R.id.btnGenerate)
         //val radioGroup = findViewById<RadioGroup>(R.id.radioGroup)
-        val numberOfProblemsEditText = findViewById<EditText>(R.id.numberOfProblems)
-        val numberOfVariantsEditText = findViewById<EditText>(R.id.numberOfVariants)
+        numberOfProblemsEditText = findViewById(R.id.numberOfProblems)
+        numberOfVariantsEditText = findViewById(R.id.numberOfVariants)
         //val linearForRadioGroup2 = findViewById<LinearLayout>(R.id.linearForRadioGroup2)
         //linearForRadioGroup2.visibility = View.GONE
         //linearForRadioGroup2.isEnabled = false

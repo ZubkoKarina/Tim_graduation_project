@@ -22,23 +22,38 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/metal_card"
-        android:layout_width="329dp"
-        android:layout_height="190dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/metal_card"
-        android:padding="16dp"
-        android:textSize="18sp"
+    <FrameLayout
+        android:id="@+id/metal_card_container"
+        android:layout_width="410dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toTopOf="@+id/textToChooseAct"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/metal_card"
+            android:layout_width="384dp"
+            android:layout_height="205dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/metal_card"
+            android:padding="16dp"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/shine"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@drawable/shine_gradient" />
+    </FrameLayout>
 
     <LinearLayout
         android:id="@+id/linearForQuantity"
         android:layout_width="142dp"
         android:layout_height="200dp"
-        android:layout_below="@+id/metal_card"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="16dp"
         android:background="#fefae0"
@@ -99,16 +114,16 @@
 
     <LinearLayout
         android:id="@+id/linearForRadioGroup1"
-        android:layout_width="300dp"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textToChooseAct">
-    <LinearLayout
-        android:layout_width="120dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/dodavannya"

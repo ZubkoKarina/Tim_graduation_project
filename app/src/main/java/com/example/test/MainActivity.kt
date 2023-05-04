@@ -2,24 +2,24 @@ package com.example.test
 
 import android.Manifest
 import android.content.pm.PackageManager
-import android.graphics.pdf.PdfDocument
 import android.os.Bundle
+import android.os.Environment
 import android.os.Handler
 import android.os.Looper
-import android.os.Environment
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.View
+import android.view.animation.AnimationUtils
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import android.view.animation.AnimationUtils
 import com.example.test.math_actions.*
 import com.itextpdf.text.*
 import com.itextpdf.text.pdf.PdfPTable
 import com.itextpdf.text.pdf.PdfWriter
 import java.io.FileOutputStream
+
 
 class MainActivity : AppCompatActivity() {
     private var selectedOperation: String? = null
@@ -32,6 +32,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         metalCard = findViewById(R.id.metal_card)
+
+        val shine = findViewById<View>(R.id.shine)
+        val animation = AnimationUtils.loadAnimation(this, R.anim.shine_animation)
+        shine.startAnimation(animation)
+
 
         // Загрузите и запустите анимацию
         val shineAnimation = AnimationUtils.loadAnimation(this, R.anim.shine_animation)
@@ -51,12 +56,12 @@ class MainActivity : AppCompatActivity() {
         }*/
         //karina end
         val btnGenerate = findViewById<Button>(R.id.btnGenerate)
-        val radioGroup = findViewById<RadioGroup>(R.id.radioGroup)
+        //val radioGroup = findViewById<RadioGroup>(R.id.radioGroup)
         val numberOfProblemsEditText = findViewById<EditText>(R.id.numberOfProblems)
         val numberOfVariantsEditText = findViewById<EditText>(R.id.numberOfVariants)
-        val linearForRadioGroup2 = findViewById<LinearLayout>(R.id.linearForRadioGroup2)
-        linearForRadioGroup2.visibility = View.GONE
-        linearForRadioGroup2.isEnabled = false
+        //val linearForRadioGroup2 = findViewById<LinearLayout>(R.id.linearForRadioGroup2)
+        //linearForRadioGroup2.visibility = View.GONE
+        //linearForRadioGroup2.isEnabled = false
         btnGenerate.isEnabled = false
 
         val numberOfProblemsTextWatcher = object : TextWatcher {
@@ -92,11 +97,11 @@ class MainActivity : AppCompatActivity() {
         numberOfProblemsEditText.addTextChangedListener(numberOfProblemsTextWatcher)
         numberOfVariantsEditText.addTextChangedListener(numberOfVariantsTextWatcher)
 
-        radioGroup.setOnCheckedChangeListener { _, checkedId ->
+        /*radioGroup.setOnCheckedChangeListener { _, checkedId ->
             val radioButton = findViewById<RadioButton>(checkedId)
             selectedOperation = radioButton.text.toString()
             checkGenerateButtonState(btnGenerate, numberOfProblemsEditText, numberOfVariantsEditText)
-        }
+        }*/
 
         btnGenerate.setOnClickListener {
             if (ContextCompat.checkSelfPermission(

@@ -2808,6 +2808,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable round_button
 drawable round_textview
+drawable shine_gradient
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3084,6 +3085,7 @@ id material_value_index
 id matrix
 id message
 id metal_card
+id metal_card_container
 id middle
 id mini
 id mnojennya
@@ -3210,6 +3212,7 @@ id selected
 id selection_type
 id sharedValueSet
 id sharedValueUnset
+id shine
 id shortcut
 id showCustom
 id showHome

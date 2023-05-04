@@ -1,9 +1,9 @@
-#Wed May 03 21:27:22 EEST 2023
-base.0=C\:\\Users\\-Admin-\\Desktop\\Tim_diploma\\Diplomna-master\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\-Admin-\\Desktop\\Tim_diploma\\Diplomna-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\-Admin-\\Desktop\\Tim_diploma\\Diplomna-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
-base.3=C\:\\Users\\-Admin-\\Desktop\\Tim_diploma\\Diplomna-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.4=C\:\\Users\\-Admin-\\Desktop\\Tim_diploma\\Diplomna-master\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Thu May 04 16:25:21 CEST 2023
+base.0=/home/karina/Документы/Дипломна робота/Tim/Tim_diploma/Diplomna-master/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/home/karina/Документы/Дипломна робота/Tim/Tim_diploma/Diplomna-master/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/home/karina/Документы/Дипломна робота/Tim/Tim_diploma/Diplomna-master/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex
+base.3=/home/karina/Документы/Дипломна робота/Tim/Tim_diploma/Diplomna-master/app/build/intermediates/dex/debug/mergeProjectDexDebug/8/classes.dex
+base.4=/home/karina/Документы/Дипломна робота/Tim/Tim_diploma/Diplomna-master/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=7/classes.dex

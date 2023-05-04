@@ -7,5 +7,5 @@
         android:toYDelta="100%"
         android:duration="3000"
         android:repeatMode="restart"
-        android:repeatCount="infinite"/>
+        android:repeatCount="infinite" />
 </set>

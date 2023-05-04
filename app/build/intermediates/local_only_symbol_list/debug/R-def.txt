@@ -17,6 +17,7 @@ drawable ic_launcher_foreground
 drawable metal_card
 drawable round_button
 drawable round_textview
+drawable shine_gradient
 font rubikmono
 id btnGenerate
 id dilennya
@@ -26,9 +27,11 @@ id koreni
 id linearForQuantity
 id linearForRadioGroup1
 id metal_card
+id metal_card_container
 id mnojennya
 id numberOfProblems
 id numberOfVariants
+id shine
 id simpleLog
 id stepinChisla
 id textToChooseAct

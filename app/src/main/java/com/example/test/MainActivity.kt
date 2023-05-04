@@ -131,7 +131,19 @@ class MainActivity : AppCompatActivity() {
         val bottomSheetView = layoutInflater.inflate(R.layout.bottom_sheet_dialog, null)
         bottomSheetDialog.setContentView(bottomSheetView)
         bottomSheetDialog.show()
+
+        val radioGroup = bottomSheetView.findViewById<RadioGroup>(R.id.radioGroup)
+        val chooseOperationButton = bottomSheetView.findViewById<Button>(R.id.chooseOperationButton)
+
+        chooseOperationButton.setOnClickListener {
+            val checkedId = radioGroup.checkedRadioButtonId
+            val radioButton = bottomSheetView.findViewById<RadioButton>(checkedId)
+            selectedOperation = radioButton.text.toString()
+            checkGenerateButtonState(btnGenerate, numberOfProblemsEditText, numberOfVariantsEditText)
+            bottomSheetDialog.dismiss()
+        }
     }
+
     private fun startTextTypingEffect() {
         val handler = Handler(Looper.getMainLooper())
         val delay: Long = 100 // Задержка в миллисекундах между выводом каждого символа

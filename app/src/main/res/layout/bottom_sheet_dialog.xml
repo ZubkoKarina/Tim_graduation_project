@@ -20,6 +20,7 @@
             android:textSize="18sp" />
 
         <RadioGroup
+            android:id="@+id/radioGroup1"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -51,10 +52,11 @@
         </RadioGroup>
 
         <RadioGroup
-        android:layout_width="120dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="10"
-        android:orientation="vertical">
+            android:id="@+id/radioGroup"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:orientation="vertical">
 
         <RadioButton
             android:id="@+id/koreni"
@@ -83,7 +85,7 @@
         <RadioButton
             android:id="@+id/xSimple"
             android:layout_width="120dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:text="Знайти X" />
 
         </RadioGroup>
@@ -125,7 +127,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/numberOfProblems"
+                android:id="@+id/numberOfProblemsEditText"
                 android:layout_width="100dp"
                 android:layout_height="50dp"
                 android:hint="1-100"

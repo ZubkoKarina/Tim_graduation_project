@@ -14,6 +14,7 @@ import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import com.example.test.R.*
 import com.example.test.math_actions.*
 import com.itextpdf.text.*
 import com.itextpdf.text.pdf.PdfPTable
@@ -34,20 +35,20 @@ class MainActivity : AppCompatActivity() {
     private var textIndex = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        metalCard = findViewById(R.id.metal_card)
-        numberOfProblemsEditText = findViewById(R.id.numberOfProblems)
-        numberOfVariantsEditText = findViewById(R.id.numberOfVariants)
-        btnGenerate = findViewById(R.id.btnGenerate)
+        setContentView(layout.activity_main)
+        metalCard = findViewById(id.metal_card)
+        numberOfProblemsEditText = findViewById(bottom_sheet_dialog.id.numberOfProblems)
+        numberOfVariantsEditText = findViewById(bottom_sheet_dialog.id.numberOfVariants)
+        btnGenerate = findViewById(id.btnGenerate)
 
-        val showBottomSheetDialogButton: Button = findViewById(R.id.showBottomSheetDialogButton)
+        val showBottomSheetDialogButton: Button = findViewById(id.showBottomSheetDialogButton)
         showBottomSheetDialogButton.setOnClickListener {
             showBottomSheetDialog()
         }
 
 
-        val shine = findViewById<View>(R.id.shine)
-        val animation = AnimationUtils.loadAnimation(this, R.anim.shine_animation)
+        val shine = findViewById<View>(id.shine)
+        val animation = AnimationUtils.loadAnimation(this, anim.shine_animation)
         shine.startAnimation(animation)
 
 
@@ -134,12 +135,12 @@ class MainActivity : AppCompatActivity() {
     }
     private fun showBottomSheetDialog() {
         val bottomSheetDialog = BottomSheetDialog(this)
-        val bottomSheetView = layoutInflater.inflate(R.layout.bottom_sheet_dialog, null)
+        val bottomSheetView = layoutInflater.inflate(layout.bottom_sheet_dialog, null)
         bottomSheetDialog.setContentView(bottomSheetView)
         bottomSheetDialog.show()
 
-        val radioGroup = bottomSheetView.findViewById<RadioGroup>(R.id.radioGroup)
-        val chooseOperationButton = bottomSheetView.findViewById<Button>(R.id.chooseOperationButton)
+        val radioGroup = bottomSheetView.findViewById<RadioGroup>(id.radioGroup)
+        val chooseOperationButton = bottomSheetView.findViewById<Button>(id.chooseOperationButton)
 
         chooseOperationButton.setOnClickListener {
             val checkedId = radioGroup.checkedRadioButtonId

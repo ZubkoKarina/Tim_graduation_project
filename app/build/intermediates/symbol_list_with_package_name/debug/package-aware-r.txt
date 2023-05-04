@@ -2964,7 +2964,6 @@ id design_menu_item_text
 id design_navigation_view
 id dialog_button
 id dilennya
-id dilennya1
 id dimensions
 id direct
 id disableHome
@@ -2973,7 +2972,6 @@ id disablePostScroll
 id disableScroll
 id disjoint
 id dodavannya
-id dodavannya1
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -2998,7 +2996,6 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id factorialChisla
-id factorialChisla1
 id fade
 id fill
 id fill_horizontal
@@ -3047,7 +3044,6 @@ id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
 id koreni
-id koreni1
 id labeled
 id layout
 id left
@@ -3058,7 +3054,6 @@ id line3
 id linear
 id linearForQuantity
 id linearForRadioGroup1
-id linearForRadioGroup2
 id listMode
 id list_item
 id m3_side_sheet
@@ -3092,7 +3087,6 @@ id metal_card
 id middle
 id mini
 id mnojennya
-id mnojennya1
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3168,8 +3162,6 @@ id pressed
 id progress_circular
 id progress_horizontal
 id radio
-id radioGroup
-id radioGroup2
 id ratio
 id rectangles
 id reverseSawtooth
@@ -3223,7 +3215,6 @@ id showCustom
 id showHome
 id showTitle
 id simpleLog
-id simpleLog1
 id sin
 id skipCollapsed
 id skipped
@@ -3252,7 +3243,6 @@ id startVertical
 id staticLayout
 id staticPostLayout
 id stepinChisla
-id stepinChisla1
 id stop
 id stretch
 id submenuarrow
@@ -3314,7 +3304,6 @@ id up
 id useLogo
 id vertical_only
 id vidnimannya
-id vidnimannya1
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3331,13 +3320,8 @@ id wrap
 id wrap_content
 id wrap_content_constrained
 id xSimple
-id xSimple1
 id x_left
 id x_right
-id ySimple
-id ySimple1
-id zSimple
-id zSimple1
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration

@@ -6,74 +6,78 @@
     android:layout_height="match_parent"
     android:background="#fefae0"
     tools:context=".MainActivity">
-    //...
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnGenerate"
+        android:layout_width="329dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/round_button"
+        android:isScrollContainer="false"
+        android:text="@string/generate_button_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/metal_card"
+        android:layout_width="329dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/metal_card"
+        android:padding="16dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearForQuantity"
+        android:layout_width="142dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/metal_card"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:background="#fefae0"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textToChooseAct">
 
         <TextView
-            android:id="@+id/metal_card"
-            android:layout_width="329dp"
-            android:layout_height="60dp"
-            android:background="@drawable/metal_card"
-            android:padding="16dp"
-            android:textSize="18sp" />
+            android:id="@+id/textVariants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="Введіть кількість варіантів робіт:"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnGenerate"
-            android:layout_width="329dp"
-            android:layout_height="60dp"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="23dp"
-            android:layout_marginBottom="17dp"
-            android:background="@drawable/round_button"
-            android:isScrollContainer="false"
-            android:text="@string/generate_button_text" />
+        <EditText
+            android:id="@+id/numberOfVariants"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:hint="1-100"
+            android:inputType="number" />
 
-        <LinearLayout
-            android:id="@+id/linearForQuantity"
-            android:layout_width="142dp"
-            android:layout_height="279dp"
-            android:layout_below="@+id/metal_card"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="87dp"
-            android:layout_marginEnd="7dp"
-            android:background="#fefae0"
-            android:orientation="vertical">
+        <TextView
+            android:id="@+id/textToChooseQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="Введіть кількість прикладів:"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/textVariants"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingStart="8dp"
-                android:text="Введіть кількість варіантів робіт:"
-                android:textColor="@color/black"
-                android:textStyle="bold" />
-
-            <EditText
-                android:id="@+id/numberOfVariants"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:hint="1-100"
-                android:inputType="number" />
-
-            <TextView
-                android:id="@+id/textToChooseQuantity"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingStart="8dp"
-                android:text="Введіть кількість прикладів:"
-                android:textColor="@color/black"
-                android:textStyle="bold" />
-
-            <EditText
-                android:id="@+id/numberOfProblems"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:hint="1-100"
-                android:inputType="number" />
-        </LinearLayout>
+        <EditText
+            android:id="@+id/numberOfProblems"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:hint="1-100"
+            android:inputType="number" />
+    </LinearLayout>
 
     <!--<TextView
         android:id="@+id/title"
@@ -95,19 +99,16 @@
 
     <LinearLayout
         android:id="@+id/linearForRadioGroup1"
-        android:layout_width="120dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textToChooseAct">
-
-        <RadioGroup
-            android:id="@+id/radioGroup"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="16dp"
-            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/dodavannya"
@@ -132,6 +133,13 @@
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:text="Ділення" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/koreni"
@@ -163,118 +171,21 @@
                 android:layout_height="wrap_content"
                 android:text="Знайти X" />
 
-            <RadioButton
-                android:id="@+id/ySimple"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:text="Знайти X" />
-
-            <RadioButton
-                android:id="@+id/zSimple"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:text="Знайти X" />
-        </RadioGroup>
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearForRadioGroup2"
-        android:layout_width="120dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:orientation="vertical"
-        app:layout_constraintStart_toEndOf="@+id/linearForRadioGroup1"
-        app:layout_constraintTop_toBottomOf="@+id/textToChooseAct">
-
-        <RadioGroup
-            android:id="@+id/radioGroup2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="16dp"
-            android:orientation="vertical">
-
-            <RadioButton
-                android:id="@+id/dodavannya1"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:text="Додавання" />
-
-            <RadioButton
-                android:id="@+id/vidnimannya1"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:text="Віднімання" />
-
-            <RadioButton
-                android:id="@+id/mnojennya1"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:text="Множення" />
-
-            <RadioButton
-                android:id="@+id/dilennya1"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:text="Ділення" />
-
-            <RadioButton
-                android:id="@+id/koreni1"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:text="Корень числа" />
-
-            <RadioButton
-                android:id="@+id/simpleLog1"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:text="Прості логарифми" />
-
-            <RadioButton
-                android:id="@+id/stepinChisla1"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:text="Степінь числа" />
-
-            <RadioButton
-                android:id="@+id/factorialChisla1"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:text="Факторіал числа1" />
-
-            <RadioButton
-                android:id="@+id/xSimple1"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:text="Знайти X" />
-
-            <RadioButton
-                android:id="@+id/ySimple1"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:text="Знайти X" />
-
-            <RadioButton
-                android:id="@+id/zSimple1"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:text="Знайти X" />
-
-        </RadioGroup>
+        </LinearLayout>
     </LinearLayout>
 
     <TextView
         android:id="@+id/textToChooseAct"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="140dp"
+        android:layout_marginTop="300dp"
         android:background="#faedcd"
         android:paddingStart="8dp"
         android:text="Виберіть дію:"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="@id/metal_card"
-        />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

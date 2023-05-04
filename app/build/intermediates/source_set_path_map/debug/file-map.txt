@@ -1,31 +1,32 @@
-com.example.test.app-coordinatorlayout-1.1.0-0 /home/karina/.gradle/caches/transforms-3/28ecb53ac8b10b7d7beb099942bafad2/transformed/coordinatorlayout-1.1.0/res
-com.example.test.app-core-ktx-1.9.0-1 /home/karina/.gradle/caches/transforms-3/33f7607bb777baaa4bf687254128f43a/transformed/core-ktx-1.9.0/res
-com.example.test.app-annotation-experimental-1.3.0-2 /home/karina/.gradle/caches/transforms-3/36a88479231594f70999783d7146e91c/transformed/annotation-experimental-1.3.0/res
-com.example.test.app-lifecycle-viewmodel-savedstate-2.5.1-3 /home/karina/.gradle/caches/transforms-3/3fabbf4b8daae7c0f9236b09f663be71/transformed/lifecycle-viewmodel-savedstate-2.5.1/res
-com.example.test.app-transition-1.2.0-4 /home/karina/.gradle/caches/transforms-3/4044c8694d0dfcd621eb6acd3041eb0d/transformed/transition-1.2.0/res
-com.example.test.app-activity-1.6.0-5 /home/karina/.gradle/caches/transforms-3/415c8fa2a656fed5dbb3c7d5468d5fa9/transformed/activity-1.6.0/res
-com.example.test.app-fragment-1.3.6-6 /home/karina/.gradle/caches/transforms-3/4962a8bdf356bc80c451516e8308e3df/transformed/fragment-1.3.6/res
-com.example.test.app-lifecycle-process-2.4.1-7 /home/karina/.gradle/caches/transforms-3/4f226700234a46a607dc3e6ce1d8e82b/transformed/lifecycle-process-2.4.1/res
-com.example.test.app-constraintlayout-2.1.4-8 /home/karina/.gradle/caches/transforms-3/50c1d341d72e51e6505351cbc4b8a253/transformed/constraintlayout-2.1.4/res
-com.example.test.app-drawerlayout-1.1.1-9 /home/karina/.gradle/caches/transforms-3/517b03abcb1830566efdc959ef47181a/transformed/drawerlayout-1.1.1/res
-com.example.test.app-lifecycle-viewmodel-2.5.1-10 /home/karina/.gradle/caches/transforms-3/5c3f30a9e7c946b32fe974e16904099b/transformed/lifecycle-viewmodel-2.5.1/res
-com.example.test.app-lifecycle-livedata-core-2.5.1-11 /home/karina/.gradle/caches/transforms-3/5c62141fe1733c2afb072ab1b3123fae/transformed/lifecycle-livedata-core-2.5.1/res
-com.example.test.app-emoji2-views-helper-1.2.0-12 /home/karina/.gradle/caches/transforms-3/75891410441fcf03ee7c55fc1a99411e/transformed/emoji2-views-helper-1.2.0/res
-com.example.test.app-lifecycle-runtime-2.5.1-13 /home/karina/.gradle/caches/transforms-3/7ac4acf7108a26cdf8c2140ae83e22cd/transformed/lifecycle-runtime-2.5.1/res
-com.example.test.app-cardview-1.0.0-14 /home/karina/.gradle/caches/transforms-3/9af7e838d7437c48af21668fad10609f/transformed/cardview-1.0.0/res
-com.example.test.app-startup-runtime-1.1.1-15 /home/karina/.gradle/caches/transforms-3/9d37e2510709f370b37264ec6df61981/transformed/startup-runtime-1.1.1/res
-com.example.test.app-material-1.8.0-16 /home/karina/.gradle/caches/transforms-3/9e65410bcba15043088d60046272ecf2/transformed/material-1.8.0/res
-com.example.test.app-appcompat-1.6.1-17 /home/karina/.gradle/caches/transforms-3/a2bdb18fb8788f9aab0e137a9d52b6b8/transformed/appcompat-1.6.1/res
-com.example.test.app-emoji2-1.2.0-18 /home/karina/.gradle/caches/transforms-3/a52946eba28c3376de86fe93aa82708b/transformed/emoji2-1.2.0/res
-com.example.test.app-viewpager2-1.0.0-19 /home/karina/.gradle/caches/transforms-3/a828ee41f0f4360be32356f0449a8fb3/transformed/viewpager2-1.0.0/res
-com.example.test.app-recyclerview-1.1.0-20 /home/karina/.gradle/caches/transforms-3/aadfbc6fcddda897882177de7f8ec0e5/transformed/recyclerview-1.1.0/res
-com.example.test.app-core-1.9.0-21 /home/karina/.gradle/caches/transforms-3/b1053a51dfa0b2724a744fcf4dcdee4b/transformed/core-1.9.0/res
-com.example.test.app-savedstate-1.2.0-22 /home/karina/.gradle/caches/transforms-3/cf4d728e18b2efa21ff9bb6c0096ce75/transformed/savedstate-1.2.0/res
-com.example.test.app-appcompat-resources-1.6.1-23 /home/karina/.gradle/caches/transforms-3/fea0751c3d2d7560fa32227136b20d54/transformed/appcompat-resources-1.6.1/res
-com.example.test.app-pngs-24 /home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/build/generated/res/pngs/debug
-com.example.test.app-resValues-25 /home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/build/generated/res/resValues/debug
-com.example.test.app-packageDebugResources-26 /home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.example.test.app-packageDebugResources-27 /home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.example.test.app-merged_res-28 /home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/build/intermediates/merged_res/debug
-com.example.test.app-debug-29 /home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/debug/res
-com.example.test.app-main-30 /home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/res
+com.example.test.app-drawerlayout-1.1.1-0 C:\Users\-Admin-\.gradle\caches\transforms-3\02c478c8b3dd4c985e621e366a801d0b\transformed\drawerlayout-1.1.1\res
+com.example.test.app-core-1.9.0-1 C:\Users\-Admin-\.gradle\caches\transforms-3\0d7110b23689b49079ef2e73aa61c398\transformed\core-1.9.0\res
+com.example.test.app-viewpager2-1.0.0-2 C:\Users\-Admin-\.gradle\caches\transforms-3\1743da3af8d19be4387d83834d5a0da5\transformed\viewpager2-1.0.0\res
+com.example.test.app-lifecycle-viewmodel-savedstate-2.5.1-3 C:\Users\-Admin-\.gradle\caches\transforms-3\1975fe153b411d10e9c26373a62cc57b\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
+com.example.test.app-appcompat-1.6.1-4 C:\Users\-Admin-\.gradle\caches\transforms-3\3b8e4f21e914cf32aea006c6d6a6cd1e\transformed\appcompat-1.6.1\res
+com.example.test.app-coordinatorlayout-1.1.0-5 C:\Users\-Admin-\.gradle\caches\transforms-3\3c27b976d3dacef99f234d2bfac803f0\transformed\coordinatorlayout-1.1.0\res
+com.example.test.app-appcompat-resources-1.6.1-6 C:\Users\-Admin-\.gradle\caches\transforms-3\411e6385b40e4c598c36e0632faf1525\transformed\appcompat-resources-1.6.1\res
+com.example.test.app-lifecycle-runtime-2.5.1-7 C:\Users\-Admin-\.gradle\caches\transforms-3\4b2d51d11aa581e8140379120b706845\transformed\lifecycle-runtime-2.5.1\res
+com.example.test.app-emoji2-views-helper-1.2.0-8 C:\Users\-Admin-\.gradle\caches\transforms-3\6e8610499f1e5577f7b5320177a22026\transformed\emoji2-views-helper-1.2.0\res
+com.example.test.app-lifecycle-viewmodel-2.5.1-9 C:\Users\-Admin-\.gradle\caches\transforms-3\74eafde7cd0c011a80d5c6a3add1278e\transformed\lifecycle-viewmodel-2.5.1\res
+com.example.test.app-core-ktx-1.9.0-10 C:\Users\-Admin-\.gradle\caches\transforms-3\7bd1855ef707a28da53994a413b13b8d\transformed\core-ktx-1.9.0\res
+com.example.test.app-transition-1.2.0-11 C:\Users\-Admin-\.gradle\caches\transforms-3\805d1798c3c3e6ba8f0612d943b3e92d\transformed\transition-1.2.0\res
+com.example.test.app-savedstate-1.2.0-12 C:\Users\-Admin-\.gradle\caches\transforms-3\836cbd55cbbb037ee338bc00d8976c62\transformed\savedstate-1.2.0\res
+com.example.test.app-recyclerview-1.1.0-13 C:\Users\-Admin-\.gradle\caches\transforms-3\b4462fc66d04d51e98d401315e64585d\transformed\recyclerview-1.1.0\res
+com.example.test.app-lifecycle-process-2.4.1-14 C:\Users\-Admin-\.gradle\caches\transforms-3\b67a6c80fc708c5b6e8a0fff3c8a0fe2\transformed\lifecycle-process-2.4.1\res
+com.example.test.app-startup-runtime-1.1.1-15 C:\Users\-Admin-\.gradle\caches\transforms-3\c02448b9493f1d8ed42ca0d66a84e92d\transformed\startup-runtime-1.1.1\res
+com.example.test.app-fragment-1.3.6-16 C:\Users\-Admin-\.gradle\caches\transforms-3\c219b372d0a5d7246140fea5e7de463e\transformed\fragment-1.3.6\res
+com.example.test.app-material-1.8.0-17 C:\Users\-Admin-\.gradle\caches\transforms-3\c93e70925bd640a804c9f71706cdded1\transformed\material-1.8.0\res
+com.example.test.app-emoji2-1.2.0-18 C:\Users\-Admin-\.gradle\caches\transforms-3\d0a40742173899b2ae88afdb2ea4c51c\transformed\emoji2-1.2.0\res
+com.example.test.app-constraintlayout-2.1.4-19 C:\Users\-Admin-\.gradle\caches\transforms-3\d29190e3db38e248bacb68224d6c3619\transformed\constraintlayout-2.1.4\res
+com.example.test.app-annotation-experimental-1.3.0-20 C:\Users\-Admin-\.gradle\caches\transforms-3\ee9756991dc8c46b5bd893687463808a\transformed\annotation-experimental-1.3.0\res
+com.example.test.app-cardview-1.0.0-21 C:\Users\-Admin-\.gradle\caches\transforms-3\f2c871baa87a78384741335626c229ac\transformed\cardview-1.0.0\res
+com.example.test.app-activity-1.6.0-22 C:\Users\-Admin-\.gradle\caches\transforms-3\f36e20a6bd542daf84efc433a41944e8\transformed\activity-1.6.0\res
+com.example.test.app-lifecycle-livedata-core-2.5.1-23 C:\Users\-Admin-\.gradle\caches\transforms-3\f512e61f7aca2f22d16a44559097e076\transformed\lifecycle-livedata-core-2.5.1\res
+com.example.test.app-pngs-24 C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\build\generated\res\pngs\debug
+com.example.test.app-resValues-25 C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\build\generated\res\resValues\debug
+com.example.test.app-rs-26 C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\build\generated\res\rs\debug
+com.example.test.app-packageDebugResources-27 C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.test.app-packageDebugResources-28 C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.test.app-merged_res-29 C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\build\intermediates\merged_res\debug
+com.example.test.app-debug-30 C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\debug\res
+com.example.test.app-main-31 C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\res

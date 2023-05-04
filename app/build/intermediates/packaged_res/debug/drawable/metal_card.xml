@@ -12,7 +12,7 @@
                 android:startColor="@color/metal_highlight_start"
                 android:endColor="@color/metal_highlight_end"
                 android:angle="45"/>
-            <corners android:radius="30dp"/>
+            <corners android:radius="3dp"/>
         </shape>
     </item>
 </layer-list>

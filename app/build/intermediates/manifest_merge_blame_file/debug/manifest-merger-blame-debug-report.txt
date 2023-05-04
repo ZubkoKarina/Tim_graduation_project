@@ -6,84 +6,84 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/AndroidManifest.xml
+8-->C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/AndroidManifest.xml
+9-->C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-11-->/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/AndroidManifest.xml:4:5-81
-11-->/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/AndroidManifest.xml:4:22-78
+11-->C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\AndroidManifest.xml:4:5-81
+11-->C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\AndroidManifest.xml:4:22-78
 12
 13    <permission
-13-->[androidx.core:core:1.9.0] /home/karina/.gradle/caches/transforms-3/b1053a51dfa0b2724a744fcf4dcdee4b/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+13-->[androidx.core:core:1.9.0] C:\Users\-Admin-\.gradle\caches\transforms-3\0d7110b23689b49079ef2e73aa61c398\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 14        android:name="com.example.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-14-->[androidx.core:core:1.9.0] /home/karina/.gradle/caches/transforms-3/b1053a51dfa0b2724a744fcf4dcdee4b/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+14-->[androidx.core:core:1.9.0] C:\Users\-Admin-\.gradle\caches\transforms-3\0d7110b23689b49079ef2e73aa61c398\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 15        android:protectionLevel="signature" />
-15-->[androidx.core:core:1.9.0] /home/karina/.gradle/caches/transforms-3/b1053a51dfa0b2724a744fcf4dcdee4b/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+15-->[androidx.core:core:1.9.0] C:\Users\-Admin-\.gradle\caches\transforms-3\0d7110b23689b49079ef2e73aa61c398\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 16
 17    <uses-permission android:name="com.example.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-17-->[androidx.core:core:1.9.0] /home/karina/.gradle/caches/transforms-3/b1053a51dfa0b2724a744fcf4dcdee4b/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-17-->[androidx.core:core:1.9.0] /home/karina/.gradle/caches/transforms-3/b1053a51dfa0b2724a744fcf4dcdee4b/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+17-->[androidx.core:core:1.9.0] C:\Users\-Admin-\.gradle\caches\transforms-3\0d7110b23689b49079ef2e73aa61c398\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] C:\Users\-Admin-\.gradle\caches\transforms-3\0d7110b23689b49079ef2e73aa61c398\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/AndroidManifest.xml:6:5-24:19
+19-->C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\AndroidManifest.xml:6:5-24:19
 20        android:allowBackup="true"
-20-->/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/AndroidManifest.xml:7:9-35
+20-->C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\AndroidManifest.xml:7:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.9.0] /home/karina/.gradle/caches/transforms-3/b1053a51dfa0b2724a744fcf4dcdee4b/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+21-->[androidx.core:core:1.9.0] C:\Users\-Admin-\.gradle\caches\transforms-3\0d7110b23689b49079ef2e73aa61c398\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 22        android:dataExtractionRules="@xml/data_extraction_rules"
-22-->/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/AndroidManifest.xml:8:9-65
+22-->C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\AndroidManifest.xml:8:9-65
 23        android:debuggable="true"
 24        android:extractNativeLibs="false"
 25        android:fullBackupContent="@xml/backup_rules"
-25-->/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/AndroidManifest.xml:9:9-54
+25-->C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\AndroidManifest.xml:9:9-54
 26        android:icon="@mipmap/ic_launcher"
-26-->/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/AndroidManifest.xml:10:9-43
+26-->C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\AndroidManifest.xml:10:9-43
 27        android:label="Diplomna"
-27-->/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/AndroidManifest.xml:11:9-33
+27-->C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\AndroidManifest.xml:11:9-33
 28        android:supportsRtl="true"
-28-->/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/AndroidManifest.xml:12:9-35
+28-->C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\AndroidManifest.xml:12:9-35
 29        android:testOnly="true"
 30        android:theme="@style/Theme.Test" >
-30-->/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/AndroidManifest.xml:13:9-42
+30-->C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\AndroidManifest.xml:13:9-42
 31        <activity
-31-->/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/AndroidManifest.xml:15:9-23:20
+31-->C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\AndroidManifest.xml:15:9-23:20
 32            android:name="com.example.test.MainActivity"
-32-->/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/AndroidManifest.xml:16:13-41
+32-->C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\AndroidManifest.xml:16:13-41
 33            android:exported="true" >
-33-->/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/AndroidManifest.xml:17:13-36
+33-->C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\AndroidManifest.xml:17:13-36
 34            <intent-filter>
-34-->/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/AndroidManifest.xml:18:13-22:29
+34-->C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\AndroidManifest.xml:18:13-22:29
 35                <action android:name="android.intent.action.MAIN" />
-35-->/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/AndroidManifest.xml:19:17-69
-35-->/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/AndroidManifest.xml:19:25-66
+35-->C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\AndroidManifest.xml:19:17-69
+35-->C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\AndroidManifest.xml:19:25-66
 36
 37                <category android:name="android.intent.category.LAUNCHER" />
-37-->/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/AndroidManifest.xml:21:17-77
-37-->/home/karina/Документы/Дипломна робота/Tim_diploma/Diplomna-master/app/src/main/AndroidManifest.xml:21:27-74
+37-->C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\AndroidManifest.xml:21:17-77
+37-->C:\Users\-Admin-\Desktop\Tim\Tim_diploma\Diplomna-master\app\src\main\AndroidManifest.xml:21:27-74
 38            </intent-filter>
 39        </activity>
 40
 41        <provider
-41-->[androidx.emoji2:emoji2:1.2.0] /home/karina/.gradle/caches/transforms-3/a52946eba28c3376de86fe93aa82708b/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\-Admin-\.gradle\caches\transforms-3\d0a40742173899b2ae88afdb2ea4c51c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 42            android:name="androidx.startup.InitializationProvider"
-42-->[androidx.emoji2:emoji2:1.2.0] /home/karina/.gradle/caches/transforms-3/a52946eba28c3376de86fe93aa82708b/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\-Admin-\.gradle\caches\transforms-3\d0a40742173899b2ae88afdb2ea4c51c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
 43            android:authorities="com.example.test.androidx-startup"
-43-->[androidx.emoji2:emoji2:1.2.0] /home/karina/.gradle/caches/transforms-3/a52946eba28c3376de86fe93aa82708b/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\-Admin-\.gradle\caches\transforms-3\d0a40742173899b2ae88afdb2ea4c51c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 44            android:exported="false" >
-44-->[androidx.emoji2:emoji2:1.2.0] /home/karina/.gradle/caches/transforms-3/a52946eba28c3376de86fe93aa82708b/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\-Admin-\.gradle\caches\transforms-3\d0a40742173899b2ae88afdb2ea4c51c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 45            <meta-data
-45-->[androidx.emoji2:emoji2:1.2.0] /home/karina/.gradle/caches/transforms-3/a52946eba28c3376de86fe93aa82708b/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\-Admin-\.gradle\caches\transforms-3\d0a40742173899b2ae88afdb2ea4c51c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-46-->[androidx.emoji2:emoji2:1.2.0] /home/karina/.gradle/caches/transforms-3/a52946eba28c3376de86fe93aa82708b/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\-Admin-\.gradle\caches\transforms-3\d0a40742173899b2ae88afdb2ea4c51c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 47                android:value="androidx.startup" />
-47-->[androidx.emoji2:emoji2:1.2.0] /home/karina/.gradle/caches/transforms-3/a52946eba28c3376de86fe93aa82708b/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\-Admin-\.gradle\caches\transforms-3\d0a40742173899b2ae88afdb2ea4c51c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 48            <meta-data
-48-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/karina/.gradle/caches/transforms-3/4f226700234a46a607dc3e6ce1d8e82b/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\-Admin-\.gradle\caches\transforms-3\b67a6c80fc708c5b6e8a0fff3c8a0fe2\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
 49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-49-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/karina/.gradle/caches/transforms-3/4f226700234a46a607dc3e6ce1d8e82b/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\-Admin-\.gradle\caches\transforms-3\b67a6c80fc708c5b6e8a0fff3c8a0fe2\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
 50                android:value="androidx.startup" />
-50-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/karina/.gradle/caches/transforms-3/4f226700234a46a607dc3e6ce1d8e82b/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+50-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\-Admin-\.gradle\caches\transforms-3\b67a6c80fc708c5b6e8a0fff3c8a0fe2\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
 51        </provider>
 52    </application>
 53

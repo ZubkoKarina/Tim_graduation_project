@@ -43,8 +43,8 @@ class MainActivity : AppCompatActivity() {
         // Удалите второй блок onCreate и вставьте содержимое сюда
         // (код ниже уже вставлен из второго блока onCreate)
         //karina
-        val myTextView: TextView = findViewById(R.id.title)
-        myTextView.visibility = View.GONE
+        //val myTextView: TextView = findViewById(R.id.title)
+        //myTextView.visibility = View.GONE
         /*myTextView.setOnClickListener {
             val animation = AnimationUtils.loadAnimation(this, R.anim.textview_animation)
             myTextView.startAnimation(animation)

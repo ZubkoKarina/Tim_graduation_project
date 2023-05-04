@@ -2884,6 +2884,7 @@ int id action_text 0x7f090043
 int id actions 0x7f090044
 int id activity_chooser_view_content 0x7f090045
 int id add 0x7f090046
+int id additionRadioButton 0x7f090201
 int id alertTitle 0x7f090047
 int id aligned 0x7f090048
 int id all 0x7f090049
@@ -2927,6 +2928,7 @@ int id chain2 0x7f09006e
 int id chains 0x7f09006f
 int id checkbox 0x7f090070
 int id checked 0x7f090071
+int id chooseOperationButton 0x7f090202
 int id chronometer 0x7f090072
 int id circle_center 0x7f090073
 int id clear_text 0x7f090074
@@ -2972,7 +2974,6 @@ int id disableIntraAutoTransition 0x7f09009b
 int id disablePostScroll 0x7f09009c
 int id disableScroll 0x7f09009d
 int id disjoint 0x7f09009e
-int id dodavannya 0x7f09009f
 int id dragAnticlockwise 0x7f0900a0
 int id dragClockwise 0x7f0900a1
 int id dragDown 0x7f0900a2
@@ -3054,7 +3055,6 @@ int id line1 0x7f0900ed
 int id line3 0x7f0900ee
 int id linear 0x7f0900ef
 int id linearForQuantity 0x7f0900f0
-int id linearForRadioGroup1 0x7f0900f1
 int id listMode 0x7f0900f2
 int id list_item 0x7f0900f3
 int id m3_side_sheet 0x7f0900f4
@@ -3164,6 +3164,7 @@ int id pressed 0x7f09015b
 int id progress_circular 0x7f09015c
 int id progress_horizontal 0x7f09015d
 int id radio 0x7f09015e
+int id radioGroup 0x7f090203
 int id ratio 0x7f09015f
 int id rectangles 0x7f090160
 int id reverseSawtooth 0x7f090161
@@ -3251,6 +3252,7 @@ int id stop 0x7f0901b1
 int id stretch 0x7f0901b2
 int id submenuarrow 0x7f0901b3
 int id submit_area 0x7f0901b4
+int id subtractionRadioButton 0x7f090204
 int id supportScrollUp 0x7f0901b5
 int id tabMode 0x7f0901b6
 int id tag_accessibility_actions 0x7f0901b7
@@ -3307,7 +3309,6 @@ int id unlabeled 0x7f0901e9
 int id up 0x7f0901ea
 int id useLogo 0x7f0901eb
 int id vertical_only 0x7f0901ec
-int id vidnimannya 0x7f0901ed
 int id view_offset_helper 0x7f0901ee
 int id view_transition 0x7f0901ef
 int id view_tree_lifecycle_owner 0x7f0901f0

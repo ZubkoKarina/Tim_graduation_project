@@ -2885,6 +2885,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id additionRadioButton
 id alertTitle
 id aligned
 id all
@@ -2928,6 +2929,7 @@ id chain2
 id chains
 id checkbox
 id checked
+id chooseOperationButton
 id chronometer
 id circle_center
 id clear_text
@@ -2973,7 +2975,6 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
-id dodavannya
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3055,7 +3056,6 @@ id line1
 id line3
 id linear
 id linearForQuantity
-id linearForRadioGroup1
 id listMode
 id list_item
 id m3_side_sheet
@@ -3165,6 +3165,7 @@ id pressed
 id progress_circular
 id progress_horizontal
 id radio
+id radioGroup
 id ratio
 id rectangles
 id reverseSawtooth
@@ -3252,6 +3253,7 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id subtractionRadioButton
 id supportScrollUp
 id tabMode
 id tag_accessibility_actions
@@ -3308,7 +3310,6 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
-id vidnimannya
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner

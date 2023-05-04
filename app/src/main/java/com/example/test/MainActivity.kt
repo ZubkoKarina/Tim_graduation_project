@@ -39,8 +39,8 @@ class MainActivity : AppCompatActivity() {
 
 
         // Загрузите и запустите анимацию
-        val shineAnimation = AnimationUtils.loadAnimation(this, R.anim.shine_animation)
-        metalCard.startAnimation(shineAnimation)
+        //val shineAnimation = AnimationUtils.loadAnimation(this, R.anim.shine_animation)
+        //metalCard.startAnimation(shineAnimation)
 
         // Начните эффект печатания текста
         startTextTypingEffect()

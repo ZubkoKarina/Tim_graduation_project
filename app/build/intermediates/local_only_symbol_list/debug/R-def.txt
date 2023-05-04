@@ -32,7 +32,6 @@ id metal_card_container
 id mnojennya
 id numberOfProblems
 id numberOfVariants
-id radioGroup
 id shine
 id showBottomSheetDialogButton
 id simpleLog

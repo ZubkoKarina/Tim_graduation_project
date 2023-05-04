@@ -54,49 +54,7 @@
             android:rotationY="31" />
     </FrameLayout>
 
-    <LinearLayout
-        android:id="@+id/linearForQuantity"
-        android:layout_width="142dp"
-        android:layout_height="200dp"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="16dp"
-        android:background="#fefae0"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textToChooseAct">
 
-        <TextView
-            android:id="@+id/textVariants"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingStart="8dp"
-            android:text="Введіть кількість варіантів робіт:"
-            android:textColor="@color/black"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/numberOfVariants"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:hint="1-100"
-            android:inputType="number" />
-
-        <TextView
-            android:id="@+id/textToChooseQuantity"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingStart="8dp"
-            android:text="Введіть кількість прикладів:"
-            android:textColor="@color/black"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/numberOfProblems"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:hint="1-100"
-            android:inputType="number" />
-    </LinearLayout>
 
     <!--<TextView
         android:id="@+id/title"

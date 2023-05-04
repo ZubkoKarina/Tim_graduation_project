@@ -25,7 +25,7 @@ import com.google.android.material.bottomsheet.BottomSheetDialog
 class MainActivity : AppCompatActivity() {
     private lateinit var numberOfProblemsEditText: EditText
     private lateinit var numberOfVariantsEditText: EditText
-    val btnGenerate: Button = findViewById(R.id.btnGenerate)
+    private lateinit var btnGenerate: Button
     private var selectedOperation: String? = null
     private var numberOfProblems: Int? = null
     private var numberOfVariants: Int? = null
@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
         metalCard = findViewById(R.id.metal_card)
         numberOfProblemsEditText = findViewById(R.id.numberOfProblems)
         numberOfVariantsEditText = findViewById(R.id.numberOfVariants)
+        btnGenerate = findViewById(R.id.btnGenerate)
 
         val showBottomSheetDialogButton: Button = findViewById(R.id.showBottomSheetDialogButton)
         showBottomSheetDialogButton.setOnClickListener {

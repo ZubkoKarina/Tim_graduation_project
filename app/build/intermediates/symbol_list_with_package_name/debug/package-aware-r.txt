@@ -3165,7 +3165,6 @@ id pressed
 id progress_circular
 id progress_horizontal
 id radio
-id radioGroup
 id ratio
 id rectangles
 id reverseSawtooth

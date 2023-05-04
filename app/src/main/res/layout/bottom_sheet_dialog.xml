@@ -7,8 +7,7 @@
     android:background="@drawable/bottom_sheet_dialog_background"
     app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -17,43 +16,44 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Выберите операцию:"
+            android:text="Оберіть операцію:"
             android:textSize="18sp" />
 
         <RadioGroup
-            android:id="@+id/radioGroup"
-            android:layout_width="match_parent"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/additionRadioButton"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Додавання" />
 
             <RadioButton
                 android:id="@+id/subtractionRadioButton"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Віднімання" />
 
-        <RadioButton
-            android:id="@+id/mnojennya"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:text="Множення" />
+            <RadioButton
+                android:id="@+id/mnojennya"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Множення" />
 
-        <RadioButton
-            android:id="@+id/dilennya"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:text="Ділення" />
+            <RadioButton
+                android:id="@+id/dilennya"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Ділення" />
         </RadioGroup>
+
         <RadioGroup
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_weight="10"
         android:orientation="vertical">
 
         <RadioButton
@@ -88,12 +88,59 @@
 
         </RadioGroup>
 
+        <LinearLayout
+            android:id="@+id/linearForQuantity"
+            android:layout_width="142dp"
+            android:layout_height="200dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textToChooseAct">
+
+            <TextView
+                android:id="@+id/textVariants"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:text="Введіть кількість варіантів робіт:"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/numberOfVariants"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:hint="1-100"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textToChooseQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:text="Введіть кількість прикладів:"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/numberOfProblems"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:hint="1-100"
+                android:inputType="number" />
+        </LinearLayout>
+
         <Button
             android:id="@+id/chooseOperationButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:text="Выбрать" />
+            android:text="Вибрати" />
+
+
+
 
     </LinearLayout>
 

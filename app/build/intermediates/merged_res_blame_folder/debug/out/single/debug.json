@@ -96,6 +96,10 @@
         "source": "/home/karina/.gradle/daemon/8.0/com.example.test.app-main-30:/anim/textview_animation.xml"
     },
     {
+        "merged": "com.example.test.app-merged_res-28:/layout_activity_main.xml.flat",
+        "source": "com.example.test.app-main-30:/layout/activity_main.xml"
+    },
+    {
         "merged": "/home/karina/.gradle/daemon/8.0/com.example.test.app-merged_res-28:/layout_bottom_sheet_dialog.xml.flat",
         "source": "/home/karina/.gradle/daemon/8.0/com.example.test.app-main-30:/layout/bottom_sheet_dialog.xml"
     },

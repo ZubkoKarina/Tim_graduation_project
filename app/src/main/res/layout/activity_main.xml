@@ -39,9 +39,8 @@
             android:background="@drawable/metal_card"
             android:padding="16dp"
             android:textSize="30sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textColor="@color/white"
+            android:fontFamily="@font/rubikmono"/>
 
         <View
             android:id="@+id/shine"
@@ -195,7 +194,7 @@
 
     <TextView
         android:id="@+id/textToChooseAct"
-        android:layout_width="400"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="300dp"
         android:background="#ffffff"
@@ -205,7 +204,8 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -19,6 +19,7 @@ import com.itextpdf.text.*
 import com.itextpdf.text.pdf.PdfPTable
 import com.itextpdf.text.pdf.PdfWriter
 import java.io.FileOutputStream
+import com.google.android.material.bottomsheet.BottomSheetDialog
 
 
 class MainActivity : AppCompatActivity() {
@@ -32,6 +33,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         metalCard = findViewById(R.id.metal_card)
+
+        val showBottomSheetDialogButton: Button = findViewById(R.id.showBottomSheetDialogButton)
+        showBottomSheetDialogButton.setOnClickListener {
+            showBottomSheetDialog()
+        }
+
 
         val shine = findViewById<View>(R.id.shine)
         val animation = AnimationUtils.loadAnimation(this, R.anim.shine_animation)
@@ -118,6 +125,12 @@ class MainActivity : AppCompatActivity() {
                 generatePdf()
             }
         }
+    }
+    private fun showBottomSheetDialog() {
+        val bottomSheetDialog = BottomSheetDialog(this)
+        val bottomSheetView = layoutInflater.inflate(R.layout.bottom_sheet_dialog, null)
+        bottomSheetDialog.setContentView(bottomSheetView)
+        bottomSheetDialog.show()
     }
     private fun startTextTypingEffect() {
         val handler = Handler(Looper.getMainLooper())

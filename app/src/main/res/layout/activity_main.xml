@@ -33,8 +33,10 @@
 
         <TextView
             android:id="@+id/metal_card"
-            android:layout_width="390dp"
+            android:layout_width="match_parent"
             android:layout_height="205dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
             android:layout_marginTop="24dp"
             android:background="@drawable/metal_card"
             android:padding="16dp"
@@ -207,5 +209,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/showBottomSheetDialogButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Показать Bottom Sheet Dialog"
+        app:layout_constraintBottom_toTopOf="@+id/textToChooseAct"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

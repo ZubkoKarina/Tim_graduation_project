@@ -4,6 +4,25 @@
             "outputFile": "com.example.test.app-mergeDebugResources-26:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
+                    "source": "/home/karina/Документы/Дипломна робота/Tim_graduation_project-04.05.2023/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "791"
+                    },
+                    "to": {
+                        "startLines": "34",
+                        "startColumns": "4",
+                        "startOffsets": "3448",
+                        "endLines": "46",
+                        "endColumns": "12",
+                        "endOffsets": "4018"
+                    }
+                },
+                {
                     "source": "/home/karina/.gradle/caches/transforms-3/a2bdb18fb8788f9aab0e137a9d52b6b8/transformed/appcompat-1.6.1/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -35,25 +54,6 @@
                         "startOffsets": "687,762,873,962,1063,1170,1277,1376,1483,1586,1674,1798,1900,2002,2118,2220,2334,2462,2578,2700,2836,2956,3090,3210,3322,4112,4229,4353,4483,4605,4743,4877,4993",
                         "endColumns": "74,110,88,100,106,106,98,106,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
                         "endOffsets": "757,868,957,1058,1165,1272,1371,1478,1581,1669,1793,1895,1997,2113,2215,2329,2457,2573,2695,2831,2951,3085,3205,3317,3443,4224,4348,4478,4600,4738,4872,4988,5108"
-                    }
-                },
-                {
-                    "source": "/home/karina/Документы/Дипломна робота/Tim/Tim_diploma/Diplomna-master/app/src/main/res/values-night/themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "791"
-                    },
-                    "to": {
-                        "startLines": "34",
-                        "startColumns": "4",
-                        "startOffsets": "3448",
-                        "endLines": "46",
-                        "endColumns": "12",
-                        "endOffsets": "4018"
                     }
                 }
             ]

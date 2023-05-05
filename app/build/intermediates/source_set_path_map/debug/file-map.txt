@@ -22,10 +22,10 @@ com.example.test.app-recyclerview-1.1.0-20 /home/karina/.gradle/caches/transform
 com.example.test.app-core-1.9.0-21 /home/karina/.gradle/caches/transforms-3/b1053a51dfa0b2724a744fcf4dcdee4b/transformed/core-1.9.0/res
 com.example.test.app-savedstate-1.2.0-22 /home/karina/.gradle/caches/transforms-3/cf4d728e18b2efa21ff9bb6c0096ce75/transformed/savedstate-1.2.0/res
 com.example.test.app-appcompat-resources-1.6.1-23 /home/karina/.gradle/caches/transforms-3/fea0751c3d2d7560fa32227136b20d54/transformed/appcompat-resources-1.6.1/res
-com.example.test.app-pngs-24 /home/karina/Документы/Дипломна робота/Tim/Tim_diploma/Diplomna-master/app/build/generated/res/pngs/debug
-com.example.test.app-resValues-25 /home/karina/Документы/Дипломна робота/Tim/Tim_diploma/Diplomna-master/app/build/generated/res/resValues/debug
-com.example.test.app-packageDebugResources-26 /home/karina/Документы/Дипломна робота/Tim/Tim_diploma/Diplomna-master/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.example.test.app-packageDebugResources-27 /home/karina/Документы/Дипломна робота/Tim/Tim_diploma/Diplomna-master/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.example.test.app-merged_res-28 /home/karina/Документы/Дипломна робота/Tim/Tim_diploma/Diplomna-master/app/build/intermediates/merged_res/debug
-com.example.test.app-debug-29 /home/karina/Документы/Дипломна робота/Tim/Tim_diploma/Diplomna-master/app/src/debug/res
-com.example.test.app-main-30 /home/karina/Документы/Дипломна робота/Tim/Tim_diploma/Diplomna-master/app/src/main/res
+com.example.test.app-pngs-24 /home/karina/Документы/Дипломна робота/Tim_graduation_project-04.05.2023/app/build/generated/res/pngs/debug
+com.example.test.app-resValues-25 /home/karina/Документы/Дипломна робота/Tim_graduation_project-04.05.2023/app/build/generated/res/resValues/debug
+com.example.test.app-packageDebugResources-26 /home/karina/Документы/Дипломна робота/Tim_graduation_project-04.05.2023/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.test.app-packageDebugResources-27 /home/karina/Документы/Дипломна робота/Tim_graduation_project-04.05.2023/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.test.app-merged_res-28 /home/karina/Документы/Дипломна робота/Tim_graduation_project-04.05.2023/app/build/intermediates/merged_res/debug
+com.example.test.app-debug-29 /home/karina/Документы/Дипломна робота/Tim_graduation_project-04.05.2023/app/src/debug/res
+com.example.test.app-main-30 /home/karina/Документы/Дипломна робота/Tim_graduation_project-04.05.2023/app/src/main/res

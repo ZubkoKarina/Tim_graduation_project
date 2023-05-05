@@ -22,7 +22,6 @@ drawable shine_gradient
 font rubikmono
 id additionRadioButton
 id btnGenerate
-id chooseOperationButton
 id dilennya
 id factorialChisla
 id koreni
@@ -30,8 +29,10 @@ id linearForQuantity
 id metal_card
 id metal_card_container
 id mnojennya
-id numberOfProblems
+id numberOfProblemsEditText
 id numberOfVariants
+id radioGroup
+id radioGroup1
 id shine
 id showBottomSheetDialogButton
 id simpleLog
@@ -42,7 +43,6 @@ id textToChooseQuantity
 id textVariants
 id xSimple
 layout activity_main
-layout bottom_sheet_dialog
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

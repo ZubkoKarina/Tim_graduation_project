@@ -109,7 +109,7 @@
     <TextView
         android:id="@+id/textToChooseAct"
         android:layout_width="346dp"
-        android:layout_height="19dp"
+        android:layout_height="30dp"
         android:layout_marginTop="332dp"
         android:background="#ffffff"
         android:backgroundTint="#FFFFFF"
@@ -118,6 +118,7 @@
         android:textAlignment="textStart"
         android:textColor="#776074"
         android:textStyle="bold"
+        android:textSize="17dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.369"
         app:layout_constraintStart_toStartOf="parent"

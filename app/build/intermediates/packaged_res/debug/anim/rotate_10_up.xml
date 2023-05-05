@@ -5,5 +5,4 @@
     android:pivotX="50%"
     android:pivotY="50%"
     android:duration="5000"
-    android:repeatCount="infinite"
-    android:interpolator="@android:interpolator/linear" />
+    android:interpolator="@anim/cycle_interpolar" />

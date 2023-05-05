@@ -22,6 +22,7 @@ int anim btn_radio_to_off_mtrl_ring_outer_path_animation 0x7f010014
 int anim btn_radio_to_on_mtrl_dot_group_animation 0x7f010015
 int anim btn_radio_to_on_mtrl_ring_outer_animation 0x7f010016
 int anim btn_radio_to_on_mtrl_ring_outer_path_animation 0x7f010017
+int anim cycle_interpolar 0x7f01002f
 int anim design_bottom_sheet_slide_in 0x7f010018
 int anim design_bottom_sheet_slide_out 0x7f010019
 int anim design_snackbar_in 0x7f01001a

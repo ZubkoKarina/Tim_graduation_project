@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+anim cycle_interpolar
 anim rotate_10_down
 anim rotate_10_up
 anim rotate_indefinitely

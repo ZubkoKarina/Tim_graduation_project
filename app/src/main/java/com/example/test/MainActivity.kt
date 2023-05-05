@@ -142,28 +142,11 @@ class MainActivity : AppCompatActivity() {
     }
     private fun startRotationAnimation() {
         val metalCard1 = findViewById<TextView>(R.id.metal_card1)
-        val rotateUp = AnimationUtils.loadAnimation(this, R.anim.rotate_10_up)
-        val rotateDown = AnimationUtils.loadAnimation(this, R.anim.rotate_10_down)
-
-
-
-        rotateDown.setAnimationListener(object : Animation.AnimationListener {
-            override fun onAnimationStart(animation: Animation) {}
-            override fun onAnimationRepeat(animation: Animation) {}
-            override fun onAnimationEnd(animation: Animation) {
-                metalCard1.startAnimation(rotateUp)
-            }
-        })
-        rotateUp.setAnimationListener(object : Animation.AnimationListener {
-            override fun onAnimationStart(animation: Animation) {}
-            override fun onAnimationRepeat(animation: Animation) {}
-            override fun onAnimationEnd(animation: Animation) {
-                metalCard1.startAnimation(rotateDown)
-            }
-        })
-
-        metalCard1.startAnimation(rotateUp)
+        val rotateAnimation = AnimationUtils.loadAnimation(this, R.anim.rotate_10_up)
+        rotateAnimation.repeatCount = Animation.INFINITE
+        metalCard1.startAnimation(rotateAnimation)
     }
+
 
 
 

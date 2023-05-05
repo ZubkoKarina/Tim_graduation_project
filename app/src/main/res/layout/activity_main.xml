@@ -53,7 +53,7 @@
             android:background="@drawable/metal_card1"
             android:fontFamily="@font/badscript"
             android:padding="16dp"
-            android:rotation="-8"
+            android:rotation="0"
             android:rotationY="0"
             android:textColor="@color/white"
             android:textSize="28sp" />

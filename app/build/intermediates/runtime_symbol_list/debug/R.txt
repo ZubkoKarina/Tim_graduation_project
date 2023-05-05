@@ -40,6 +40,9 @@ int anim m3_side_sheet_slide_out 0x7f010026
 int anim mtrl_bottom_sheet_slide_in 0x7f010027
 int anim mtrl_bottom_sheet_slide_out 0x7f010028
 int anim mtrl_card_lowers_interpolator 0x7f010029
+int anim rotate_10_down 0x7f01002d
+int anim rotate_10_up 0x7f01002e
+int anim rotate_indefinitely 0x7f01002c
 int anim shine_animation 0x7f01002a
 int anim textview_animation 0x7f01002b
 int animator design_appbar_state_list_animator 0x7f020000

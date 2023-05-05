@@ -1,5 +1,8 @@
 R_DEF: Internal format may change without notice
 local
+anim rotate_10_down
+anim rotate_10_up
+anim rotate_indefinitely
 anim shine_animation
 anim textview_animation
 color black

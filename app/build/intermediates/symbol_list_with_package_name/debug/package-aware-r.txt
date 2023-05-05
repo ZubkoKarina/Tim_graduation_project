@@ -41,6 +41,9 @@ anim m3_side_sheet_slide_out
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
+anim rotate_10_down
+anim rotate_10_up
+anim rotate_indefinitely
 anim shine_animation
 anim textview_animation
 animator design_appbar_state_list_animator

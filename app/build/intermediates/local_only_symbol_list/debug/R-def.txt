@@ -21,6 +21,7 @@ drawable metal_card1
 drawable round_button
 drawable round_textview
 drawable shine_gradient
+drawable vector
 font badscript
 font rubikmono
 id additionRadioButton
@@ -33,6 +34,7 @@ id metal_card
 id metal_card1
 id metal_card_container
 id mnojennya
+id my_image
 id numberOfProblemsEditText
 id numberOfVariants
 id radioGroup

@@ -12,10 +12,6 @@
         "source": "/home/karina/.gradle/daemon/8.0/com.example.test.app-main-30:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.test.app-merged_res-28:/anim_shine_animation.xml.flat",
-        "source": "com.example.test.app-main-30:/anim/shine_animation.xml"
-    },
-    {
         "merged": "/home/karina/.gradle/daemon/8.0/com.example.test.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/home/karina/.gradle/daemon/8.0/com.example.test.app-main-30:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
@@ -108,8 +104,16 @@
         "source": "/home/karina/.gradle/daemon/8.0/com.example.test.app-main-30:/anim/textview_animation.xml"
     },
     {
+        "merged": "com.example.test.app-merged_res-28:/layout_activity_main.xml.flat",
+        "source": "com.example.test.app-main-30:/layout/activity_main.xml"
+    },
+    {
         "merged": "/home/karina/.gradle/daemon/8.0/com.example.test.app-merged_res-28:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "/home/karina/.gradle/daemon/8.0/com.example.test.app-main-30:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/karina/.gradle/daemon/8.0/com.example.test.app-merged_res-28:/drawable_vector.xml.flat",
+        "source": "/home/karina/.gradle/daemon/8.0/com.example.test.app-main-30:/drawable/vector.xml"
     },
     {
         "merged": "/home/karina/.gradle/daemon/8.0/com.example.test.app-merged_res-28:/layout_activity_main.xml.flat",

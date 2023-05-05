@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/karina/Документы/Дипломна робота/старая версия (GONE)/Tim_diploma/Diplomna-master/app/src/main/jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/karina/Документы/Дипломна робота/старая версия (GONE)/Tim_diploma/Diplomna-master/app/src/debug/jniLibs"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/karina/Документы/Дипломна робота/Tim_graduation_project-04.05.2023/app/src/main/jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/karina/Документы/Дипломна робота/Tim_graduation_project-04.05.2023/app/src/debug/jniLibs"/></dataSet></merger>
+>>>>>>> c8aa18f263e1f5a64b0028c928daddcfe39c3673

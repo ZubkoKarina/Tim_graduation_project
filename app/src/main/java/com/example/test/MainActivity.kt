@@ -41,10 +41,10 @@ class MainActivity : AppCompatActivity() {
         val numberOfProblemsEditText = findViewById<EditText>(R.id.numberOfProblemsEditText)
         btnGenerate = findViewById(id.btnGenerate)
 
-        val showBottomSheetDialogButton: Button = findViewById(id.showBottomSheetDialogButton)
+        /*val showBottomSheetDialogButton: Button = findViewById(id.showBottomSheetDialogButton)
         showBottomSheetDialogButton.setOnClickListener {
             //showBottomSheetDialog()
-        }
+        }*/
 
 
         val shine = findViewById<View>(id.shine)

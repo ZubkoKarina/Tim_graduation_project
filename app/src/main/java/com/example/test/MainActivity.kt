@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
     private val textToDisplay = "Додаток для генерування PDF файлу з математичними виразами"
     private var textIndex = 0
     override fun onCreate(savedInstanceState: Bundle?) {
+
         
         super.onCreate(savedInstanceState)
         setContentView(layout.activity_main)

@@ -40,6 +40,15 @@ class MainActivity : AppCompatActivity() {
     private var textIndex = 0
     override fun onCreate(savedInstanceState: Bundle?) {
 
+        /*val radioButton1 = findViewById<RadioButton>(R.id.additionRadioButton)
+        val radioButton2 = findViewById<RadioButton>(R.id.subtractionRadioButton)
+        val radioButton3 = findViewById<RadioButton>(R.id.mnojennya)
+        val radioButton1 = findViewById<RadioButton>(R.id.dilennya)
+        val radioButton2 = findViewById<RadioButton>(R.id.koreni)
+        val radioButton3 = findViewById<RadioButton>(R.id.simpleLog)
+        val radioButton1 = findViewById<RadioButton>(R.id.stepinChisla)
+        val radioButton2 = findViewById<RadioButton>(R.id.factorialChisla)
+        val radioButton3 = findViewById<RadioButton>(R.id.xSimple)*/
 
         super.onCreate(savedInstanceState)
         setContentView(layout.activity_main)
@@ -147,18 +156,11 @@ class MainActivity : AppCompatActivity() {
         metalCard1.startAnimation(rotateAnimation)
     }
 
-
-
-
-
     /*private fun showBottomSheetDialog() {
         val bottomSheetDialog = BottomSheetDialog(this)
         val bottomSheetView = layoutInflater.inflate(layout.bottom_sheet_dialog, null)
         bottomSheetDialog.setContentView(bottomSheetView)
         bottomSheetDialog.show()
-
-
-
         /*chooseOperationButton.setOnClickListener {
             val checkedId = radioGroup.checkedRadioButtonId
             val radioButton = bottomSheetView.findViewById<RadioButton>(checkedId)

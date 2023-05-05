@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
     private var textIndex = 0
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        
+
         super.onCreate(savedInstanceState)
         setContentView(layout.activity_main)
         metalCard = findViewById(id.metal_card)

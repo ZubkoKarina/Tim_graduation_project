@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
+    android:background="#ffedfd"
     tools:context=".MainActivity">
 
 
@@ -36,13 +36,13 @@
             android:layout_width="match_parent"
             android:layout_height="205dp"
             android:layout_marginStart="15dp"
-            android:layout_marginEnd="15dp"
             android:layout_marginTop="24dp"
+            android:layout_marginEnd="15dp"
             android:background="@drawable/metal_card"
+            android:fontFamily="@font/rubikmono"
             android:padding="16dp"
-            android:textSize="30sp"
             android:textColor="@color/white"
-            android:fontFamily="@font/rubikmono"/>
+            android:textSize="30sp" />
 
         <View
             android:id="@+id/shine"
@@ -53,7 +53,6 @@
             android:rotationX="-123"
             android:rotationY="31" />
     </FrameLayout>
-
 
 
     <!--<TextView
@@ -73,7 +72,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />-->
-
 
 
     <TextView
@@ -226,6 +224,19 @@
             android:hint="1-100"
             android:inputType="number" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="400dp"
+        android:layout_height="450dp"
+        android:layout_below="@id/radioGroup"
+        android:background="#FFFFFF"
+        android:text="TextView 4"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/btnGenerate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/metal_card_container" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

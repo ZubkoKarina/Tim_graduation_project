@@ -24,8 +24,6 @@ import com.google.android.material.bottomsheet.BottomSheetDialog
 
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var numberOfProblemsEditText: EditText
-    private lateinit var numberOfVariantsEditText: EditText
     private lateinit var btnGenerate: Button
     private var selectedOperation: String? = null
     private var numberOfProblems: Int? = null
@@ -34,16 +32,17 @@ class MainActivity : AppCompatActivity() {
     private val textToDisplay = "Додаток для генерування PDF файлу з математичними виразами"
     private var textIndex = 0
     override fun onCreate(savedInstanceState: Bundle?) {
+        
         super.onCreate(savedInstanceState)
         setContentView(layout.activity_main)
         metalCard = findViewById(id.metal_card)
-        numberOfProblemsEditText = findViewById(bottom_sheet_dialog.id.numberOfProblems)
-        numberOfVariantsEditText = findViewById(bottom_sheet_dialog.id.numberOfVariants)
+        val numverOfVariants = findViewById<EditText>(R.id.numberOfVariants)
+        val numberOfProblemsEditText = findViewById<EditText>(R.id.numberOfProblemsEditText)
         btnGenerate = findViewById(id.btnGenerate)
 
         val showBottomSheetDialogButton: Button = findViewById(id.showBottomSheetDialogButton)
         showBottomSheetDialogButton.setOnClickListener {
-            showBottomSheetDialog()
+            //showBottomSheetDialog()
         }
 
 
@@ -71,8 +70,6 @@ class MainActivity : AppCompatActivity() {
         //karina end
         //val btnGenerate = findViewById<Button>(R.id.btnGenerate)
         //val radioGroup = findViewById<RadioGroup>(R.id.radioGroup)
-        numberOfProblemsEditText = findViewById(R.id.numberOfProblems)
-        numberOfVariantsEditText = findViewById(R.id.numberOfVariants)
         //val linearForRadioGroup2 = findViewById<LinearLayout>(R.id.linearForRadioGroup2)
         //linearForRadioGroup2.visibility = View.GONE
         //linearForRadioGroup2.isEnabled = false
@@ -81,7 +78,7 @@ class MainActivity : AppCompatActivity() {
         val numberOfProblemsTextWatcher = object : TextWatcher {
             override fun afterTextChanged(s: Editable?) {
                 numberOfProblems = s.toString().toIntOrNull()
-                checkGenerateButtonState(btnGenerate, numberOfProblemsEditText, numberOfVariantsEditText)
+                checkGenerateButtonState(btnGenerate, numberOfProblemsEditText, numverOfVariants)
             }
 
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
@@ -96,7 +93,7 @@ class MainActivity : AppCompatActivity() {
         val numberOfVariantsTextWatcher = object : TextWatcher {
             override fun afterTextChanged(s: Editable?) {
                 numberOfVariants = s.toString().toIntOrNull()
-                checkGenerateButtonState(btnGenerate, numberOfProblemsEditText, numberOfVariantsEditText)
+                checkGenerateButtonState(btnGenerate, numberOfProblemsEditText, numverOfVariants)
             }
 
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
@@ -109,7 +106,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         numberOfProblemsEditText.addTextChangedListener(numberOfProblemsTextWatcher)
-        numberOfVariantsEditText.addTextChangedListener(numberOfVariantsTextWatcher)
+        numverOfVariants.addTextChangedListener(numberOfVariantsTextWatcher)
 
         /*radioGroup.setOnCheckedChangeListener { _, checkedId ->
             val radioButton = findViewById<RadioButton>(checkedId)
@@ -133,23 +130,22 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-    private fun showBottomSheetDialog() {
+    /*private fun showBottomSheetDialog() {
         val bottomSheetDialog = BottomSheetDialog(this)
         val bottomSheetView = layoutInflater.inflate(layout.bottom_sheet_dialog, null)
         bottomSheetDialog.setContentView(bottomSheetView)
         bottomSheetDialog.show()
 
-        val radioGroup = bottomSheetView.findViewById<RadioGroup>(id.radioGroup)
-        val chooseOperationButton = bottomSheetView.findViewById<Button>(id.chooseOperationButton)
 
-        chooseOperationButton.setOnClickListener {
+
+        /*chooseOperationButton.setOnClickListener {
             val checkedId = radioGroup.checkedRadioButtonId
             val radioButton = bottomSheetView.findViewById<RadioButton>(checkedId)
             selectedOperation = radioButton.text.toString()
-            checkGenerateButtonState(btnGenerate, numberOfProblemsEditText, numberOfVariantsEditText)
+            //checkGenerateButtonState(btnGenerate, numberOfProblemsEditText, numverOfVariants)
             bottomSheetDialog.dismiss()
-        }
-    }
+        }*/
+    }*/
 
     private fun startTextTypingEffect() {
         val handler = Handler(Looper.getMainLooper())

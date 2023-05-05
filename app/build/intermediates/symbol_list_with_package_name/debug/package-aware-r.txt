@@ -2929,7 +2929,6 @@ id chain2
 id chains
 id checkbox
 id checked
-id chooseOperationButton
 id chronometer
 id circle_center
 id clear_text
@@ -3139,7 +3138,7 @@ id north
 id notification_background
 id notification_main_column
 id notification_main_column_container
-id numberOfProblems
+id numberOfProblemsEditText
 id numberOfVariants
 id off
 id on
@@ -3165,6 +3164,8 @@ id pressed
 id progress_circular
 id progress_horizontal
 id radio
+id radioGroup
+id radioGroup1
 id ratio
 id rectangles
 id reverseSawtooth
@@ -3434,7 +3435,6 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
-layout bottom_sheet_dialog
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

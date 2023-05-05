@@ -103,5 +103,129 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textToChooseAct">
+
+        <RadioButton
+            android:id="@+id/additionRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Додавання" />
+
+        <RadioButton
+            android:id="@+id/subtractionRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Віднімання" />
+
+        <RadioButton
+            android:id="@+id/mnojennya"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Множення" />
+
+        <RadioButton
+            android:id="@+id/dilennya"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Ділення" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="150dp"
+        android:layout_weight="100"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup1"
+        app:layout_constraintTop_toBottomOf="@+id/textToChooseAct">
+
+        <RadioButton
+            android:id="@+id/koreni"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Корень числа" />
+
+        <RadioButton
+            android:id="@+id/simpleLog"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Прості логарифми" />
+
+        <RadioButton
+            android:id="@+id/stepinChisla"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Степінь числа" />
+
+        <RadioButton
+            android:id="@+id/factorialChisla"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Факторіал числа" />
+
+        <RadioButton
+            android:id="@+id/xSimple"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="Знайти X" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/linearForQuantity"
+        android:layout_width="142dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textToChooseAct">
+
+        <TextView
+            android:id="@+id/textVariants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="Введіть кількість варіантів робіт:"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/numberOfVariants"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:hint="1-100"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textToChooseQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="Введіть кількість прикладів:"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/numberOfProblemsEditText"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:hint="1-100"
+            android:inputType="number" />
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

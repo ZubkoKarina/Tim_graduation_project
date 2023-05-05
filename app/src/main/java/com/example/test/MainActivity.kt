@@ -9,11 +9,15 @@ import android.os.Looper
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.View
+import android.animation.ValueAnimator
 import android.view.animation.AnimationUtils
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import android.animation.AnimatorSet
+import android.animation.ObjectAnimator
+import android.view.animation.LinearInterpolator
 import com.example.test.R.*
 import com.example.test.math_actions.*
 import com.itextpdf.text.*
@@ -40,6 +44,7 @@ class MainActivity : AppCompatActivity() {
         val numverOfVariants = findViewById<EditText>(R.id.numberOfVariants)
         val numberOfProblemsEditText = findViewById<EditText>(R.id.numberOfProblemsEditText)
         btnGenerate = findViewById(id.btnGenerate)
+        startRotationAnimation()
 
         /*val showBottomSheetDialogButton: Button = findViewById(id.showBottomSheetDialogButton)
         showBottomSheetDialogButton.setOnClickListener {
@@ -130,6 +135,26 @@ class MainActivity : AppCompatActivity() {
                 generatePdf()
             }
         }
+    }
+
+    private fun startRotationAnimation() {
+        val metalCard1 = findViewById<TextView>(R.id.metal_card1)
+
+        // Создаем анимацию вращения на 10 градусов вверх
+        val rotateUp = ObjectAnimator.ofFloat(metalCard1, "rotation", 0f, 10f)
+        rotateUp.duration = 500 // Вы можете изменить продолжительность анимации по своему усмотрению
+
+        // Создаем анимацию вращения на 10 градусов назад
+        val rotateBack = ObjectAnimator.ofFloat(metalCard1, "rotation", 10f, 0f)
+        rotateBack.duration = 500 // Вы можете изменить продолжительность анимации по своему усмотрению
+
+        // Создаем AnimatorSet для комбинирования анимаций
+        val rotationSet = AnimatorSet()
+        rotationSet.playSequentially(rotateUp, rotateBack)
+        rotationSet.interpolator = LinearInterpolator()
+
+        // Запускаем анимацию
+        rotationSet.start()
     }
     /*private fun showBottomSheetDialog() {
         val bottomSheetDialog = BottomSheetDialog(this)

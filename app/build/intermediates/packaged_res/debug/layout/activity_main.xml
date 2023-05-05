@@ -58,6 +58,12 @@
             android:textColor="@color/white"
             android:textSize="28sp" />
 
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clipChildren="true"
+        android:clipToPadding="true">
+
         <TextView
             android:id="@+id/metal_card"
             android:layout_width="360dp"
@@ -70,8 +76,6 @@
             android:padding="16dp"
             android:textColor="@color/white"
             android:textSize="28sp" />
-
-
         <View
             android:id="@+id/shine"
             android:layout_width="335dp"
@@ -80,6 +84,9 @@
             android:rotation="17"
             android:rotationX="-123"
             android:rotationY="31" />
+    </FrameLayout>
+
+
     </FrameLayout>
     <!--<TextView
         android:id="@+id/title"

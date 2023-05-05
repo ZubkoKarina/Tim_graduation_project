@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
+    android:background="#ffedfd"
     tools:context=".MainActivity">
 
 
@@ -33,16 +33,16 @@
 
         <TextView
             android:id="@+id/metal_card"
-            android:layout_width="match_parent"
-            android:layout_height="205dp"
-            android:layout_marginStart="15dp"
-            android:layout_marginEnd="15dp"
+            android:layout_width="360dp"
+            android:layout_height="203dp"
+            android:layout_marginStart="24dp"
             android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
             android:background="@drawable/metal_card"
+            android:fontFamily="@font/rubikmono"
             android:padding="16dp"
-            android:textSize="30sp"
             android:textColor="@color/white"
-            android:fontFamily="@font/rubikmono"/>
+            android:textSize="30sp" />
 
         <View
             android:id="@+id/shine"
@@ -53,7 +53,6 @@
             android:rotationX="-123"
             android:rotationY="31" />
     </FrameLayout>
-
 
 
     <!--<TextView
@@ -74,15 +73,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />-->
 
-
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="400dp"
+        android:layout_height="450dp"
+        android:layout_below="@id/radioGroup"
+        android:background="@drawable/background_rounded_corners"
+        android:text=""
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/metal_card_container" />
 
     <TextView
         android:id="@+id/textToChooseAct"
-        android:layout_width="400dp"
-        android:layout_height="wrap_content"
+        android:layout_width="346dp"
+        android:layout_height="19dp"
         android:layout_marginTop="300dp"
         android:background="#ffffff"
-        android:backgroundTint="#D8D8D8"
+        android:backgroundTint="#FFFFFF"
         android:paddingStart="8dp"
         android:text="Виберіть дію:"
         android:textAlignment="center"
@@ -92,16 +102,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/showBottomSheetDialogButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Показать Bottom Sheet Dialog"
-        app:layout_constraintBottom_toTopOf="@+id/textToChooseAct"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <RadioGroup
         android:id="@+id/radioGroup1"
@@ -189,6 +189,7 @@
         android:layout_height="200dp"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:background="#ffffff"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"

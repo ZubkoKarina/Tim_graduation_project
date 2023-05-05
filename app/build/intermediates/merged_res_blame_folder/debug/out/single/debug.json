@@ -4,6 +4,10 @@
         "source": "com.example.test.app-main-30:/drawable/bottom_sheet_dialog_background.xml"
     },
     {
+        "merged": "com.example.test.app-merged_res-28:/drawable_background_rounded_corners.xml.flat",
+        "source": "com.example.test.app-main-30:/drawable/background_rounded_corners.xml"
+    },
+    {
         "merged": "com.example.test.app-merged_res-28:/anim_shine_animation.xml.flat",
         "source": "com.example.test.app-main-30:/anim/shine_animation.xml"
     },

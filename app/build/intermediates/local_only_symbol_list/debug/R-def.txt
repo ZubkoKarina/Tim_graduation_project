@@ -12,6 +12,7 @@ color purple_700
 color teal_200
 color teal_700
 color white
+drawable background_rounded_corners
 drawable bottom_sheet_dialog_background
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -34,13 +35,13 @@ id numberOfVariants
 id radioGroup
 id radioGroup1
 id shine
-id showBottomSheetDialogButton
 id simpleLog
 id stepinChisla
 id subtractionRadioButton
 id textToChooseAct
 id textToChooseQuantity
 id textVariants
+id textView4
 id xSimple
 layout activity_main
 mipmap ic_launcher

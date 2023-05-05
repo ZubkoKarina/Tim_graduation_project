@@ -78,7 +78,7 @@
         android:layout_width="400dp"
         android:layout_height="450dp"
         android:layout_below="@id/radioGroup"
-        android:background="#FFFFFF"
+        android:background="@drawable/background_rounded_corners"
         android:text=""
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -88,8 +88,8 @@
 
     <TextView
         android:id="@+id/textToChooseAct"
-        android:layout_width="400dp"
-        android:layout_height="wrap_content"
+        android:layout_width="346dp"
+        android:layout_height="19dp"
         android:layout_marginTop="300dp"
         android:background="#ffffff"
         android:backgroundTint="#FFFFFF"
@@ -189,6 +189,7 @@
         android:layout_height="200dp"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:background="#ffffff"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -226,7 +227,6 @@
             android:hint="1-100"
             android:inputType="number" />
     </LinearLayout>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2707,6 +2707,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable background_rounded_corners
 drawable bottom_sheet_dialog_background
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -3216,7 +3217,6 @@ id sharedValueSet
 id sharedValueUnset
 id shine
 id shortcut
-id showBottomSheetDialogButton
 id showCustom
 id showHome
 id showTitle
@@ -3279,6 +3279,7 @@ id textToChooseAct
 id textToChooseQuantity
 id textTop
 id textVariants
+id textView4
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

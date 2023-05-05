@@ -2,5 +2,5 @@
     <font
         android:fontStyle="normal"
         android:fontWeight="400"
-        android:font="@font/RubikMono" />
+        android:font="@font/badscript" />
 </font-family>

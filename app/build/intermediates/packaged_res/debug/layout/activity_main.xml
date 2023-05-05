@@ -7,6 +7,18 @@
     android:background="#ffedfd"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="400dp"
+        android:layout_height="450dp"
+        android:layout_below="@id/radioGroup"
+        android:background="@drawable/background_rounded_corners"
+        android:text=""
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/metal_card_container" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnGenerate"
@@ -25,36 +37,50 @@
     <FrameLayout
         android:id="@+id/metal_card_container"
         android:layout_width="410dp"
-        android:layout_height="250dp"
+        android:layout_height="290dp"
         app:layout_constraintBottom_toTopOf="@+id/textToChooseAct"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+            android:id="@+id/metal_card1"
+            android:layout_width="360dp"
+            android:layout_height="203dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/metal_card1"
+            android:fontFamily="@font/badscript"
+            android:padding="16dp"
+            android:rotation="-8"
+            android:rotationY="0"
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+
+        <TextView
             android:id="@+id/metal_card"
             android:layout_width="360dp"
             android:layout_height="203dp"
             android:layout_marginStart="24dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="30dp"
             android:layout_marginEnd="24dp"
             android:background="@drawable/metal_card"
-            android:fontFamily="@font/rubikmono"
+            android:fontFamily="@font/badscript"
             android:padding="16dp"
             android:textColor="@color/white"
-            android:textSize="30sp" />
+            android:textSize="28sp" />
+
 
         <View
             android:id="@+id/shine"
             android:layout_width="335dp"
-            android:layout_height="144dp"
+            android:layout_height="107dp"
             android:background="@drawable/shine_gradient"
             android:rotation="17"
             android:rotationX="-123"
             android:rotationY="31" />
     </FrameLayout>
-
-
     <!--<TextView
         android:id="@+id/title"
         android:layout_width="400dp"
@@ -72,19 +98,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />-->
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="400dp"
-        android:layout_height="450dp"
-        android:layout_below="@id/radioGroup"
-        android:background="@drawable/background_rounded_corners"
-        android:text=""
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/metal_card_container" />
 
     <TextView
         android:id="@+id/textToChooseAct"

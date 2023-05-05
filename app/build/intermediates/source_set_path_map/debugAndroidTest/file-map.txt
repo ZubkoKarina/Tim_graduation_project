@@ -1,0 +1,6 @@
+com.example.test.test.app-core-1.5.0-0 /home/karina/.gradle/caches/transforms-3/27e746a25e49f39e0ef6ff3874b311fb/transformed/core-1.5.0/res
+com.example.test.test.app-annotation-experimental-1.3.0-1 /home/karina/.gradle/caches/transforms-3/36a88479231594f70999783d7146e91c/transformed/annotation-experimental-1.3.0/res
+com.example.test.test.app-androidTest-2 /home/karina/Документы/Дипломна робота/старая версия (GONE)/Tim_diploma/Diplomna-master/app/build/generated/res/resValues/androidTest/debug
+com.example.test.test.app-mergeDebugAndroidTestResources-3 /home/karina/Документы/Дипломна робота/старая версия (GONE)/Tim_diploma/Diplomna-master/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.test.test.app-mergeDebugAndroidTestResources-4 /home/karina/Документы/Дипломна робота/старая версия (GONE)/Tim_diploma/Diplomna-master/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.test.test.app-merged_res-5 /home/karina/Документы/Дипломна робота/старая версия (GONE)/Tim_diploma/Diplomna-master/app/build/intermediates/merged_res/debugAndroidTest

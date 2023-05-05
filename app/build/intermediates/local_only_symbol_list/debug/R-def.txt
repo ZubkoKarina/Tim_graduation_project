@@ -17,9 +17,11 @@ drawable bottom_sheet_dialog_background
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable metal_card
+drawable metal_card1
 drawable round_button
 drawable round_textview
 drawable shine_gradient
+font badscript
 font rubikmono
 id additionRadioButton
 id btnGenerate
@@ -28,6 +30,7 @@ id factorialChisla
 id koreni
 id linearForQuantity
 id metal_card
+id metal_card1
 id metal_card_container
 id mnojennya
 id numberOfProblemsEditText

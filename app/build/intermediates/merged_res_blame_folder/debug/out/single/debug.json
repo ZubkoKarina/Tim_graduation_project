@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/karina/.gradle/daemon/8.0/com.example.test.app-merged_res-28:/drawable_shine_gradient.xml.flat",
-        "source": "/home/karina/.gradle/daemon/8.0/com.example.test.app-main-30:/drawable/shine_gradient.xml"
-    },
-    {
         "merged": "/home/karina/.gradle/daemon/8.0/com.example.test.app-merged_res-28:/font_badscript.ttf.flat",
         "source": "/home/karina/.gradle/daemon/8.0/com.example.test.app-main-30:/font/badscript.ttf"
+    },
+    {
+        "merged": "/home/karina/.gradle/daemon/8.0/com.example.test.app-merged_res-28:/drawable_shine_gradient.xml.flat",
+        "source": "/home/karina/.gradle/daemon/8.0/com.example.test.app-main-30:/drawable/shine_gradient.xml"
     },
     {
         "merged": "/home/karina/.gradle/daemon/8.0/com.example.test.app-merged_res-28:/mipmap-xhdpi_ic_launcher_round.webp.flat",

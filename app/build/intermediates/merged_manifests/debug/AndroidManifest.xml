@@ -26,7 +26,6 @@
         android:icon="@mipmap/ic_launcher"
         android:label="Diplomna"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.Test" >
         <activity
             android:name="com.example.test.MainActivity"

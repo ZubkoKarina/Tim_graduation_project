@@ -1,8 +1,8 @@
-#Fri May 05 15:40:29 CEST 2023
-base.0=/home/karina/Документы/Дипломна робота/старая версия (GONE)/Tim_diploma/Diplomna-master/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/classes.dex
-base.1=/home/karina/Документы/Дипломна робота/старая версия (GONE)/Tim_diploma/Diplomna-master/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
-base.2=/home/karina/Документы/Дипломна робота/старая версия (GONE)/Tim_diploma/Diplomna-master/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/11/classes.dex
-base.3=/home/karina/Документы/Дипломна робота/старая версия (GONE)/Tim_diploma/Diplomna-master/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/7/classes.dex
+#Mon May 15 21:35:14 EEST 2023
+base.0=C\:\\Users\\-Admin-\\Desktop\\Tim_graduation_project-04.05.2023\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=C\:\\Users\\-Admin-\\Desktop\\Tim_graduation_project-04.05.2023\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.2=C\:\\Users\\-Admin-\\Desktop\\Tim_graduation_project-04.05.2023\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\11\\classes.dex
+base.3=C\:\\Users\\-Admin-\\Desktop\\Tim_graduation_project-04.05.2023\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\7\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=11/classes.dex

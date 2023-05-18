@@ -41,8 +41,9 @@ id mnojennya
 id my_image
 id numberOfProblemsEditText
 id numberOfVariants
-id radioGroup
+id radioButton
 id radioGroup1
+id radioGroup2
 id shine
 id simpleLog
 id stepinChisla
@@ -53,6 +54,7 @@ id textVariants
 id textView4
 id xSimple
 layout activity_main
+layout asdasdasd
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

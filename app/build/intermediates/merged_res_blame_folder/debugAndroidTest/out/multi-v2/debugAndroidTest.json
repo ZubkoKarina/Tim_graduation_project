@@ -1,34 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.test.test.app-merged_res-5:/values-v21_values-v21.arsc.flat",
+            "outputFile": "com.example.test.test.app-merged_res-6:/values-v18_values-v18.arsc.flat",
             "map": [
                 {
-                    "source": "/home/karina/.gradle/caches/transforms-3/27e746a25e49f39e0ef6ff3874b311fb/transformed/core-1.5.0/res/values-v21/values.xml",
-                    "from": {
-                        "startLines": "4,13",
-                        "startColumns": "0,0",
-                        "startOffsets": "180,655",
-                        "endLines": "12,21",
-                        "endColumns": "8,8",
-                        "endOffsets": "654,1127"
-                    },
-                    "to": {
-                        "startLines": "2,11",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,534",
-                        "endLines": "10,19",
-                        "endColumns": "8,8",
-                        "endOffsets": "529,1006"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "com.example.test.test.app-merged_res-5:/values-v18_values-v18.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/karina/.gradle/caches/transforms-3/27e746a25e49f39e0ef6ff3874b311fb/transformed/core-1.5.0/res/values-v18/values.xml",
+                    "source": "C:\\Users\\-Admin-\\.gradle\\caches\\transforms-3\\498587f1eb2ff6c709976a319e282aaa\\transformed\\core-1.5.0\\res\\values-v18\\values.xml",
                     "from": {
                         "startLines": "4,12",
                         "startColumns": "0,0",
@@ -49,34 +25,34 @@
             ]
         },
         {
-            "outputFile": "com.example.test.test.app-merged_res-5:/values_values.arsc.flat",
+            "outputFile": "com.example.test.test.app-merged_res-6:/values-v21_values-v21.arsc.flat",
             "map": [
                 {
-                    "source": "/home/karina/.gradle/caches/transforms-3/27e746a25e49f39e0ef6ff3874b311fb/transformed/core-1.5.0/res/values/values.xml",
+                    "source": "C:\\Users\\-Admin-\\.gradle\\caches\\transforms-3\\498587f1eb2ff6c709976a319e282aaa\\transformed\\core-1.5.0\\res\\values-v21\\values.xml",
                     "from": {
-                        "startLines": "4,11",
+                        "startLines": "4,13",
                         "startColumns": "0,0",
-                        "startOffsets": "176,544",
-                        "endLines": "10,17",
+                        "startOffsets": "180,655",
+                        "endLines": "12,21",
                         "endColumns": "8,8",
-                        "endOffsets": "543,909"
+                        "endOffsets": "654,1127"
                     },
                     "to": {
-                        "startLines": "2,9",
+                        "startLines": "2,11",
                         "startColumns": "4,4",
-                        "startOffsets": "55,427",
-                        "endLines": "8,15",
+                        "startOffsets": "55,534",
+                        "endLines": "10,19",
                         "endColumns": "8,8",
-                        "endOffsets": "422,792"
+                        "endOffsets": "529,1006"
                     }
                 }
             ]
         },
         {
-            "outputFile": "com.example.test.test.app-merged_res-5:/values-v28_values-v28.arsc.flat",
+            "outputFile": "com.example.test.test.app-merged_res-6:/values-v28_values-v28.arsc.flat",
             "map": [
                 {
-                    "source": "/home/karina/.gradle/caches/transforms-3/27e746a25e49f39e0ef6ff3874b311fb/transformed/core-1.5.0/res/values-v28/values.xml",
+                    "source": "C:\\Users\\-Admin-\\.gradle\\caches\\transforms-3\\498587f1eb2ff6c709976a319e282aaa\\transformed\\core-1.5.0\\res\\values-v28\\values.xml",
                     "from": {
                         "startLines": "4,13",
                         "startColumns": "0,0",
@@ -92,6 +68,30 @@
                         "endLines": "10,19",
                         "endColumns": "8,8",
                         "endOffsets": "533,1014"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.example.test.test.app-merged_res-6:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\-Admin-\\.gradle\\caches\\transforms-3\\498587f1eb2ff6c709976a319e282aaa\\transformed\\core-1.5.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4,11",
+                        "startColumns": "0,0",
+                        "startOffsets": "176,544",
+                        "endLines": "10,17",
+                        "endColumns": "8,8",
+                        "endOffsets": "543,909"
+                    },
+                    "to": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,427",
+                        "endLines": "8,15",
+                        "endColumns": "8,8",
+                        "endOffsets": "422,792"
                     }
                 }
             ]

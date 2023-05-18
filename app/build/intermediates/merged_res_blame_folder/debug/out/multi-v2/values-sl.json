@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.test.app-mergeDebugResources-26:/values-sl/values-sl.xml",
+            "outputFile": "com.example.test.app-mergeDebugResources-27:/values-sl/values-sl.xml",
             "map": [
                 {
-                    "source": "/home/karina/.gradle/caches/transforms-3/a2bdb18fb8788f9aab0e137a9d52b6b8/transformed/appcompat-1.6.1/res/values-sl/values-sl.xml",
+                    "source": "C:\\Users\\-Admin-\\.gradle\\caches\\transforms-3\\3b8e4f21e914cf32aea006c6d6a6cd1e\\transformed\\appcompat-1.6.1\\res\\values-sl\\values-sl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/karina/.gradle/caches/transforms-3/b1053a51dfa0b2724a744fcf4dcdee4b/transformed/core-1.9.0/res/values-sl/values-sl.xml",
+                    "source": "C:\\Users\\-Admin-\\.gradle\\caches\\transforms-3\\0d7110b23689b49079ef2e73aa61c398\\transformed\\core-1.9.0\\res\\values-sl\\values-sl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/karina/.gradle/caches/transforms-3/9e65410bcba15043088d60046272ecf2/transformed/material-1.8.0/res/values-sl/values-sl.xml",
+                    "source": "C:\\Users\\-Admin-\\.gradle\\caches\\transforms-3\\c93e70925bd640a804c9f71706cdded1\\transformed\\material-1.8.0\\res\\values-sl\\values-sl.xml",
                     "from": {
                         "startLines": "2,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

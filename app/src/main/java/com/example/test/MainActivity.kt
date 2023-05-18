@@ -19,6 +19,7 @@ import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
+import android.util.Log
 import android.view.animation.LinearInterpolator
 import android.view.animation.Animation
 import com.example.test.R.*
@@ -35,68 +36,56 @@ class MainActivity : AppCompatActivity() {
     private var selectedOperation: String? = null
     private var numberOfProblems: Int? = null
     private var numberOfVariants: Int? = null
+    private var checkedRadioButtonId: Int? = null
+
     private lateinit var metalCard: TextView
     private val textToDisplay = "Додаток для генерування PDF файлу з математичними виразами"
     private var textIndex = 0
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        /*val radioButton1 = findViewById<RadioButton>(R.id.additionRadioButton)
-        val radioButton2 = findViewById<RadioButton>(R.id.subtractionRadioButton)
-        val radioButton3 = findViewById<RadioButton>(R.id.mnojennya)
-        val radioButton1 = findViewById<RadioButton>(R.id.dilennya)
-        val radioButton2 = findViewById<RadioButton>(R.id.koreni)
-        val radioButton3 = findViewById<RadioButton>(R.id.simpleLog)
-        val radioButton1 = findViewById<RadioButton>(R.id.stepinChisla)
-        val radioButton2 = findViewById<RadioButton>(R.id.factorialChisla)
-        val radioButton3 = findViewById<RadioButton>(R.id.xSimple)*/
-
         super.onCreate(savedInstanceState)
         setContentView(layout.activity_main)
         metalCard = findViewById(id.metal_card)
-        val numverOfVariants = findViewById<EditText>(R.id.numberOfVariants)
+        val numberOfVariantsEditText  = findViewById<EditText>(R.id.numberOfVariants)
         val numberOfProblemsEditText = findViewById<EditText>(R.id.numberOfProblemsEditText)
         btnGenerate = findViewById(id.btnGenerate)
-
-
-        /*val showBottomSheetDialogButton: Button = findViewById(id.showBottomSheetDialogButton)
-        showBottomSheetDialogButton.setOnClickListener {
-            //showBottomSheetDialog()
-        }*/
-
+        val radioGroup1 = findViewById<RadioGroup>(R.id.radioGroup1)
+        val radioGroup2 = findViewById<RadioGroup>(R.id.radioGroup2)
 
         val shine = findViewById<View>(id.shine)
         val animation = AnimationUtils.loadAnimation(this, anim.shine_animation)
         shine.startAnimation(animation)
-
-
-        // Загрузите и запустите анимацию
-        //val shineAnimation = AnimationUtils.loadAnimation(this, R.anim.shine_animation)
-        //metalCard.startAnimation(shineAnimation)
-
-        // Начните эффект печатания текста
         startTextTypingEffect()
-
-        // Удалите второй блок onCreate и вставьте содержимое сюда
-        // (код ниже уже вставлен из второго блока onCreate)
-        //karina
-        //val myTextView: TextView = findViewById(R.id.title)
-        //myTextView.visibility = View.GONE
-        /*myTextView.setOnClickListener {
-            val animation = AnimationUtils.loadAnimation(this, R.anim.textview_animation)
-            myTextView.startAnimation(animation)
-        }*/
-        //karina end
-        //val btnGenerate = findViewById<Button>(R.id.btnGenerate)
-        //val radioGroup = findViewById<RadioGroup>(R.id.radioGroup)
-        //val linearForRadioGroup2 = findViewById<LinearLayout>(R.id.linearForRadioGroup2)
-        //linearForRadioGroup2.visibility = View.GONE
-        //linearForRadioGroup2.isEnabled = false
         btnGenerate.isEnabled = false
+        radioGroup1.setOnCheckedChangeListener { _, checkedId ->
+            if (checkedId != -1 && checkedId != checkedRadioButtonId) {
+                radioGroup2.clearCheck()
+                checkedRadioButtonId = checkedId
+                val radioButton = findViewById<RadioButton>(checkedId)
+                selectedOperation = radioButton.text.toString()
+                checkGenerateButtonState(btnGenerate, numberOfProblemsEditText, numberOfVariantsEditText )
+            }
+        }
+
+        radioGroup2.setOnCheckedChangeListener { _, checkedId ->
+            if (checkedId != -1 && checkedId != checkedRadioButtonId) {
+                radioGroup1.clearCheck()
+                checkedRadioButtonId = checkedId
+                val radioButton = findViewById<RadioButton>(checkedId)
+                selectedOperation = radioButton.text.toString()
+                checkGenerateButtonState(btnGenerate, numberOfProblemsEditText, numberOfVariantsEditText )
+            }
+        }
+
+
 
         val numberOfProblemsTextWatcher = object : TextWatcher {
             override fun afterTextChanged(s: Editable?) {
-                numberOfProblems = s.toString().toIntOrNull()
-                checkGenerateButtonState(btnGenerate, numberOfProblemsEditText, numverOfVariants)
+                if (!s.isNullOrEmpty()) {
+                    numberOfProblems = s.toString().toIntOrNull()?.coerceAtLeast(5)
+                    Log.d("Debug", "Parsed numberOfProblems: $numberOfProblems")
+                    checkGenerateButtonState(btnGenerate, numberOfProblemsEditText, numberOfVariantsEditText)
+                }
             }
 
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
@@ -107,11 +96,12 @@ class MainActivity : AppCompatActivity() {
                 // Do nothing
             }
         }
-
         val numberOfVariantsTextWatcher = object : TextWatcher {
             override fun afterTextChanged(s: Editable?) {
-                numberOfVariants = s.toString().toIntOrNull()
-                checkGenerateButtonState(btnGenerate, numberOfProblemsEditText, numverOfVariants)
+                if (!s.isNullOrEmpty()) {
+                    numberOfVariants = s.toString().toIntOrNull()?.coerceAtLeast(1)
+                    checkGenerateButtonState(btnGenerate, numberOfProblemsEditText, numberOfVariantsEditText )
+                }
             }
 
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
@@ -124,13 +114,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         numberOfProblemsEditText.addTextChangedListener(numberOfProblemsTextWatcher)
-        numverOfVariants.addTextChangedListener(numberOfVariantsTextWatcher)
+        numberOfVariantsEditText .addTextChangedListener(numberOfVariantsTextWatcher)
 
-        /*radioGroup.setOnCheckedChangeListener { _, checkedId ->
-            val radioButton = findViewById<RadioButton>(checkedId)
-            selectedOperation = radioButton.text.toString()
-            checkGenerateButtonState(btnGenerate, numberOfProblemsEditText, numberOfVariantsEditText)
-        }*/
 
         btnGenerate.setOnClickListener {
             if (ContextCompat.checkSelfPermission(
@@ -145,6 +130,8 @@ class MainActivity : AppCompatActivity() {
                 )
             } else {
                 generatePdf()
+                Log.d("Test", "Date: $numberOfProblems")
+                Log.d("Test", "Date: $numberOfVariants")
             }
         }
         startRotationAnimation()
@@ -155,20 +142,6 @@ class MainActivity : AppCompatActivity() {
         rotateAnimation.repeatCount = Animation.INFINITE
         metalCard1.startAnimation(rotateAnimation)
     }
-
-    /*private fun showBottomSheetDialog() {
-        val bottomSheetDialog = BottomSheetDialog(this)
-        val bottomSheetView = layoutInflater.inflate(layout.bottom_sheet_dialog, null)
-        bottomSheetDialog.setContentView(bottomSheetView)
-        bottomSheetDialog.show()
-        /*chooseOperationButton.setOnClickListener {
-            val checkedId = radioGroup.checkedRadioButtonId
-            val radioButton = bottomSheetView.findViewById<RadioButton>(checkedId)
-            selectedOperation = radioButton.text.toString()
-            //checkGenerateButtonState(btnGenerate, numberOfProblemsEditText, numverOfVariants)
-            bottomSheetDialog.dismiss()
-        }*/
-    }*/
 
     private fun startTextTypingEffect() {
         val handler = Handler(Looper.getMainLooper())
@@ -317,9 +290,11 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+
     private fun checkGenerateButtonState(btnGenerate: Button, numberOfProblemsEditText: EditText, numberOfVariantsEditText: EditText) {
         btnGenerate.isEnabled = selectedOperation != null && numberOfProblems != null && numberOfProblemsEditText.text.isNotEmpty() && numberOfVariants != null && numberOfVariantsEditText.text.isNotEmpty()
     }
+
 
     override fun onRequestPermissionsResult(
         requestCode: Int,
